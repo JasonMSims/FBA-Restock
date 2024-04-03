@@ -1,0 +1,3322 @@
+{
+  "AIM-BK-AZST1": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "ALR-10012": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 114.28571428571428, "best": 150 },
+    "shipping": { "default": { "name": "ALR MFR Carton (Default)", "dimensions": { "width": 8, "length": 9, "height": 10, "weight": 1 } } }
+  },
+  "ALR-10012-70001": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-10012-70002": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 33.149171270718234, "best": 41.38 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "ALR-10012-MITTBLUE": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 34.95145631067961, "best": 34.95 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-10012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 61.47393648891551, "best": 110.77 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-10016-MITTBLUE": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 58.53658536585366, "best": 97.3 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X10012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 35.44303797468354, "best": 44.44 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X10016-MITTBLUE": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 24, "best": 24 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X30012": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 50, "best": 75 },
+    "shipping": { "default": { "name": "ALR MFR Carton (Default)", "dimensions": { "width": 8, "length": 9, "height": 10, "weight": 1 } } }
+  },
+  "ALR-2X30012-MITTBLUE": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 38.095238095238095, "best": 104.35 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X30012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 35.82089552238806, "best": 64.86 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X40012": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 35.55555555555555, "best": 60 },
+    "shipping": { "default": { "name": "ALR MFR Carton (Default)", "dimensions": { "width": 8, "length": 9, "height": 10, "weight": 1 } } }
+  },
+  "ALR-2X40012-MITTBLUE": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 43.18766066838046, "best": 71.64 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-2X40012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 39.63302752293578, "best": 68.57 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-30012": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 162.16216216216216, "best": 211.76 },
+    "shipping": { "default": { "name": "ALR MFR Carton (Default)", "dimensions": { "width": 8, "length": 9, "height": 10, "weight": 1 } } }
+  },
+  "ALR-30012-70001": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 50.76923076923077, "best": 85.71 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-30012-70002": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "ALR-30012-MITTBLUE": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 78.58117326057298, "best": 127.43 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-30012-MITTBLUE-ALT": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-30012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 75.2972258916777, "best": 116.84 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-40012": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 149.99999999999997, "best": 240 },
+    "shipping": { "default": { "name": "ALR MFR Carton (Default)", "dimensions": { "width": 8, "length": 9, "height": 10, "weight": 1 } } }
+  },
+  "ALR-40012-70001": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-40012-70002": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 42.105263157894726, "best": 57.14 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "ALR-40012-MITTBLUE": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 56.62921348314607, "best": 102.86 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-40012-MITTBLUE-SPRAYER": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 70.57297297297296, "best": 113.39 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ALR-70002": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 60, "best": 66.67 },
+    "shipping": { "default": { "name": "16x10x6 Box", "dimensions": { "width": 10, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "ALR-MITT-BLUE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 78.94736842105263, "best": 80 },
+    "shipping": { "default": { "name": "10x10x6 Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "BDG-BGBU22E-H02": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 51.03896103896104, "best": 62.31 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "BDG-BGBU22E-H27": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 28.83747178329571, "best": 39.13 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "BDG-BGBU22E-H40": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 35.94836146971202, "best": 82.35 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "CCL-20XFKS": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CCL-41034-41313": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41035-41314": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41036": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 33.333333333333336, "best": 33.33 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CCL-41036-41312": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41037-41038-41039-41040-41140-41153": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41037-41038-41039-41040-41162-63-64": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41137-41280": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 26.7379679144385, "best": 26.74 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41137-41280-41139-41403": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41140-41141": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41140-41141-41142-41404": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41143-41290": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41143-41290-41145-41405": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41159-41160-41161": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 24.137931034482758, "best": 24.14 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41165-41166-41167": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41180-41181-41182-41183-41184-41190": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41184-41185": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41184-41185-41186": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "14x3x3 White Box (CCL)", "dimensions": { "width": 3, "length": 14, "height": 3, "weight": 1 } } }
+  },
+  "CCL-41184-41185-41186-41407": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41270": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CCL-41276-41277-41278-41279": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41276-41277-41278-41279-41137-41139": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41286-41287-41288-41289": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41286-87-88-89-41143-45": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41286-87-88-89-41159-60-61": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41286-87-88-89-41159-60-61-ALT": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41308-41309-41310": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 13.513513513513516, "best": 14.29 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41312-41320": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41338-41377": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41378": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CCL-41386-87-88-89-41473-74-75": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41386-87-88-89-90-92": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41473-41474-41475": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 21.818181818181817, "best": 21.82 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CCL-41476": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-AMR": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 56.25, "best": 85.11 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-BLK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-RBW": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 79.87711213517666, "best": 120 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-BLU": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 44.4078947368421, "best": 76.92 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-BRN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 64.82412060301509, "best": 89.55 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-PCK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 65.27093596059113, "best": 102.56 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC-12IN-RED": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-BLK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-BLU": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 37.03703703703704, "best": 64.52 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-BRN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 43.01075268817204, "best": 60.61 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-PCK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 44.79166666666667, "best": 58.82 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-RBW": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 67.74193548387098, "best": 114.29 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-2PCSPR-RED": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-BLK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-BLU": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 51.02040816326531, "best": 71.43 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-BRN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 51.05105105105105, "best": 71.43 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-PCK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 43.47826086956522, "best": 54.05 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-RBW": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 72.50755287009063, "best": 95.24 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4PC12IN-3PC8IN-RED": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-4XFKS": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 80.73394495412843, "best": 153.85 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CCL-6PC-BLK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-6PC-BLU": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 42.5531914893617, "best": 47.62 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-6PC-BRN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 51.567944250871086, "best": 62.5 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-6PC-PCK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 43.01075268817205, "best": 44.44 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-6PC-RBW": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 52.79503105590062, "best": 85.89 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-6PC-RED": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "CCL-8XFKS": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CCL-SPURTLE-2PC": {
+    "optimized_ship_quantity": 60,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 400, "best": 400 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CCL-SPURTLE-3PC": {
+    "optimized_ship_quantity": 45,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 390.69767441860466, "best": 900 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CCL-SPURTLE-4PC": {
+    "optimized_ship_quantity": 45,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 120.09345794392523, "best": 166.67 },
+    "shipping": { "default": { "name": "CCL MFR Carton (Default)", "dimensions": { "width": 16, "length": 19, "height": 24, "weight": 1 } } }
+  },
+  "CLP-2X60000-2X60001-60003": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 19.704433497536947, "best": 19.7 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "CLP-2X60002-2X60039": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 12,
+    "bundling": { "average": 22.641509433962263, "best": 22.64 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-2X60003-2X60040": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 12,
+    "bundling": { "average": 26.73267326732673, "best": 46.15 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60008-2X60044": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 12,
+    "bundling": { "average": 28.314606741573034, "best": 39.34 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "FCLP-4X60002-2X60011": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 6,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60039-2X60040": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 29.268292682926827, "best": 32.43 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CLP-2X60043-2X60044": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 12,
+    "bundling": { "average": 29.999999999999993, "best": 42.11 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60070": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 20.754716981132074, "best": 21.74 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60071": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 23.809523809523807, "best": 24 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60072": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 83.07692307692308, "best": 92.31 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60073": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 20, "best": 20 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-2X60074": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 67.9245283018868, "best": 68.57 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-3X60000-3X60037": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": 36.199095022624434, "best": 61.54 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-3X60001-3X60038": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": 22.838499184339316, "best": 45.71 },
+    "shipping": { "default": { "name": "CLP MFR Carton (2-Cup)", "dimensions": { "width": 12, "length": 12, "height": 10, "weight": 1 } } }
+  },
+  "CLP-3X60009-3X60042": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 24.790619765494135, "best": 48.48 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-3X60011-3X60041": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": 36.887608069164266, "best": 46.72 },
+    "shipping": { "default": { "name": "CLP MFR Carton (2-Cup)", "dimensions": { "width": 12, "length": 12, "height": 10, "weight": 1 } } }
+  },
+  "CLP-4X60002": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 66.66666666666667, "best": 230.77 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-4X60002-2X60011": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 14.685314685314687, "best": 18 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "CLP-4X60003": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 36.89320388349515, "best": 150 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-4X60008": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 94.9868073878628, "best": 200 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-4X60010": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 91.76470588235293, "best": 240 },
+    "shipping": { "default": { "name": "CLP MFR Carton (4-Cup)", "dimensions": { "width": 15, "length": 16, "height": 12, "weight": 1 } } }
+  },
+  "CLP-4X60031": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CLP-4X60032": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "CLP-4X60039": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 37.68115942028986, "best": 70.59 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-4X60040": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 67.66917293233082, "best": 150 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-4X60043": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 81.81818181818183, "best": 150 },
+    "shipping": { "default": { "name": "CLP MFR Carton (4-Cup)", "dimensions": { "width": 15, "length": 16, "height": 12, "weight": 1 } } }
+  },
+  "CLP-4X60044": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 106.04651162790698, "best": 240 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-60070": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 46.26506024096385, "best": 80 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-60071": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 37.39376770538243, "best": 80 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-60072": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 32.49999999999999, "best": 60 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-60073": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 35.08771929824561, "best": 48 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-60074": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 66.66666666666667, "best": 66.67 },
+    "shipping": { "default": { "name": "CLP MFR Carton (6-Cup)", "dimensions": { "width": 18, "length": 22, "height": 12, "weight": 1 } } }
+  },
+  "CLP-6X60000": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 81.11888111888113, "best": 184.62 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60001": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 90.64039408866994, "best": 184.62 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60009": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 60.13513513513514, "best": 137.14 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-6X60011": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 107.14285714285714, "best": 200 },
+    "shipping": { "default": { "name": "CLP MFR Carton (2-Cup)", "dimensions": { "width": 12, "length": 12, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60037": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 72.87449392712549, "best": 160 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60038": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 67.84810126582278, "best": 96 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60041": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": -29.978586723768736, "best": 160 },
+    "shipping": { "default": { "name": "CLP MFR Carton (2-Cup)", "dimensions": { "width": 12, "length": 12, "height": 10, "weight": 1 } } }
+  },
+  "CLP-6X60042": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 70.26086956521739, "best": 184.62 },
+    "shipping": { "default": { "name": "CLP MFR Carton (3.5-Cup)", "dimensions": { "width": 14, "length": 15, "height": 13, "weight": 1 } } }
+  },
+  "CLP-PREBUNDLE-RCT-4PC": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 115.82213029989657, "best": 208.33 },
+    "shipping": { "default": { "name": "CLP MFR Carton (Prebundle)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "CLP-PREBUNDLE-RND-4PC": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 125.39184952978057, "best": 200 },
+    "shipping": { "default": { "name": "CLP MFR Carton (Prebundle)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "DBH-AREC01": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "DBH-BSEC01": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "DBH-GSEC01": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "DBH-TVMB05": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 351.7102615694165, "best": 625 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "DMT-2XPILLOWPROTECTOR-DMS": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "DMT MFR Carton (PILLOWPROTECTOR)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "DMT-2XPILLOWPROTECTOR-ST": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 64.32038834951456, "best": 90.91 },
+    "shipping": { "default": { "name": "DMT MFR Carton (PILLOWPROTECTOR)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "DMT-80008": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": 24,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "DMT MFR Carton (80008)", "dimensions": { "width": 9, "length": 8, "height": 12, "weight": 1 } } }
+  },
+  "DMT-80008-BROCHURE": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": 24,
+    "bundling": { "average": 97.14492229851827, "best": 221.54 },
+    "shipping": { "default": { "name": "DMT MFR Carton (80008)", "dimensions": { "width": 9, "length": 8, "height": 12, "weight": 1 } } }
+  },
+  "DMT-80008-PILLOWPROTECTOR-DMS": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 30.15075376884422, "best": 38.71 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "DMT-80032": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 6,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "DMT MFR Carton (80032)", "dimensions": { "width": 10, "length": 10, "height": 12, "weight": 1 } } }
+  },
+  "DMT-80032-ALT": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 6,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "DMT MFR Carton (80032)", "dimensions": { "width": 10, "length": 10, "height": 12, "weight": 1 } } }
+  },
+  "DMT-80032-BROCHURE": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 6,
+    "bundling": { "average": 76.43881542186627, "best": 130.91 },
+    "shipping": { "default": { "name": "DMT MFR Carton (80032)", "dimensions": { "width": 10, "length": 10, "height": 12, "weight": 1 } } }
+  },
+  "DMT-80032-PILLOWPROTECTOR-DMS": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 17.91044776119403, "best": 17.91 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "DMT-PILLOWPROTECTOR-DMS": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "DMT MFR Carton (PILLOWPROTECTOR)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "DMT-PILLOWPROTECTOR-ST": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 115.38461538461539, "best": 217.39 },
+    "shipping": { "default": { "name": "DMT MFR Carton (PILLOWPROTECTOR)", "dimensions": { "width": 16, "length": 20, "height": 16, "weight": 1 } } }
+  },
+  "ECW-1116": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 66.66666666666667, "best": 90 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-1116-1132-4OZ-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 22.86634460547504, "best": 31.58 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "ECW-1116-2316-EBOOK": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "ECW-1116-2316-MITTGREEN": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-1116-EBOOK": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 61.76470588235295, "best": 104.35 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-1132": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 54.59317585301837, "best": 80 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-1132-EBOOK": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 61.70065196282423, "best": 86.02 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-1132-MITTGREEN": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 50.326797385620914, "best": 78.05 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2032": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 52.019704433497544, "best": 87.67 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2032-2200-2316-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 17.97752808988764, "best": 27.27 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "ECW-2032-EBOOK": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 44.29065743944636, "best": 68.82 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2032-MITTGREEN": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 52.65588914549654, "best": 78.53 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2200": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 39.52095808383234, "best": 104.35 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-2200-EBOOK": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 40.52287581699347, "best": 68.57 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-2316": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-2316-MITTGREEN": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 67.83310901749664, "best": 102.86 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2X1132-EBOOK": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 35.94132029339854, "best": 58.06 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2X1132-MITTGREEN": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 30.681818181818187, "best": 54.55 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2X2032-EBOOK": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 26.011560693641616, "best": 48.65 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2X2032-MITTGREEN": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 34.02985074626866, "best": 56.25 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ECW-2X2200-EBOOK": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 18.934568616097284, "best": 39.25 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "ECW-2X2316": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 51.06382978723405, "best": 54.55 },
+    "shipping": { "default": { "name": "ECW MFR Carton", "dimensions": { "width": 10, "length": 11, "height": 10, "weight": 1 } } }
+  },
+  "ECW-2X2316-MITTGREEN": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 29.577464788732396, "best": 52.17 },
+    "shipping": { "default": { "name": "15x15x10 Box", "dimensions": { "width": 15, "length": 15, "height": 10, "weight": 1 } } }
+  },
+  "EML-2XE0053GB": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 65.91928251121075, "best": 133.33 },
+    "shipping": { "default": { "name": "EML MFR Carton (4-Pc Knives)", "dimensions": { "width": 13, "length": 15, "height": 9, "weight": 1 } } }
+  },
+  "EML-E0035GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 52.5, "best": 52.5 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0035GB-E0036GB": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "EML-E0036GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 96, "best": 96 },
+    "shipping": { "default": { "name": "EML MFR Carton (2-Pc Knives)", "dimensions": { "width": 12, "length": 16, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0038GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 91.30434782608695, "best": 184.62 },
+    "shipping": {
+      "default": { "name": "EML MFR Carton (3-Pc Knives - E0038GB)", "dimensions": { "width": 12, "length": 24, "height": 16, "weight": 1 } }
+    }
+  },
+  "EML-E0039GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 77.27272727272727, "best": 77.27 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0040GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 96, "best": 141.18 },
+    "shipping": { "default": { "name": "EML MFR Carton (2-Pc Knives)", "dimensions": { "width": 12, "length": 16, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0053GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "EML MFR Carton (4-Pc Knives)", "dimensions": { "width": 13, "length": 15, "height": 9, "weight": 1 } } }
+  },
+  "EML-E0055GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 78.33698030634572, "best": 141.18 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0056GB": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 108, "best": 141.18 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E0418P7": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 59.35828877005347, "best": 266.67 },
+    "shipping": { "default": { "name": "EML MFR Carton (4-Pc Knives)", "dimensions": { "width": 13, "length": 15, "height": 9, "weight": 1 } } }
+  },
+  "EML-E0538P7": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 323.07692307692304, "best": 360 },
+    "shipping": { "default": { "name": "EML MFR Carton (8-Pc Knives)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "EML-E3PCCSB-BLK": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 46.808510638297875, "best": 80 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E3PCCSG-GRY": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E3PCCSR-RED": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 46.84684684684685, "best": 66.67 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E3PCCSW-WHT": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 74.07407407407408, "best": 74.07 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E3SAND": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 79.12087912087912, "best": 150 },
+    "shipping": { "default": { "name": "EML MFR Carton (3-Pc Knives)", "dimensions": { "width": 16, "length": 17, "height": 10, "weight": 1 } } }
+  },
+  "EML-E5SAND2-ALT": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "EML-E9021GB": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "EML-E9390GB": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "EML-E9390GB-STG9340": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "EML-E9393GB": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "EML-E9PCBBB": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "EML MFR Carton (Knife Blocks)", "dimensions": { "width": 12, "length": 16, "height": 16, "weight": 1 } } }
+  },
+  "EML-STG9336": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 20.93457943925234, "best": 48 },
+    "shipping": { "default": { "name": "EML MFR Carton (2-Pc Knives)", "dimensions": { "width": 12, "length": 16, "height": 10, "weight": 1 } } }
+  },
+  "EML-STG9337": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 11199.999999999865, "best": 88.89 },
+    "shipping": { "default": { "name": "EML MFR Carton (2-Pc Knives)", "dimensions": { "width": 12, "length": 16, "height": 10, "weight": 1 } } }
+  },
+  "EML-STG9340-ALT": {
+    "optimized_ship_quantity": 150,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "HSL-2XSA200-SANWB-ALT": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 26.666666666666668, "best": 26.67 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "HSL-2XSPST": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 32.70142180094787, "best": 70.59 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SPST)", "dimensions": { "width": 5, "length": 10, "height": 8, "weight": 1 } } }
+  },
+  "HSL-3XSA200": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 32.43243243243243, "best": 55.81 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "HSL-3XSA300-ALT": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 37.248677248677254, "best": 68.09 },
+    "shipping": { "default": { "name": "15x15x10 Box", "dimensions": { "width": 15, "length": 15, "height": 10, "weight": 1 } } }
+  },
+  "HSL-3XSAPK30-ALT": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 55.71470330312774, "best": 94.74 },
+    "shipping": { "default": { "name": "HSL MFR Carton (3XSAPK30)", "dimensions": { "width": 12, "length": 22, "height": 19, "weight": 1 } } }
+  },
+  "HSL-3XSAT30": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 55.670103092783506, "best": 66.67 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "HSL-6XSAPK30": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 31.69267707082833, "best": 53.33 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "HSL-SA200": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 74.74048442906576, "best": 150 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SinuAir)", "dimensions": { "width": 12, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SA300": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 274.07903549899527, "best": 480 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SinuAir)", "dimensions": { "width": 12, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SAPK30": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 285.67975830815715, "best": 533.33 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SinuAir)", "dimensions": { "width": 12, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SAT30": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 342.85714285714283, "best": 342.86 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SinuAir)", "dimensions": { "width": 12, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SP100": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 256,
+    "bundling": { "average": 177.68331562167907, "best": 308.43 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SP100)", "dimensions": { "width": 11, "length": 20, "height": 8, "weight": 1 } } }
+  },
+  "HSL-SP100-2XSAPK30": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 132,
+    "bundling": { "average": 32.58785942492013, "best": 50.53 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SP100-2XSAPK30-SPST-EBOOK": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 132,
+    "bundling": { "average": 21.21212121212121, "best": 33.33 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SP100-EBOOK": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 256,
+    "bundling": { "average": 97.10610932475885, "best": 168.42 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SP100)", "dimensions": { "width": 11, "length": 20, "height": 8, "weight": 1 } } }
+  },
+  "HSL-SP100-SAPK30-SPST-SPTC-EBOOK": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 99,
+    "bundling": { "average": 18.150448585231192, "best": 34.48 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SP100-SPT300": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 132,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "HSL-SPST": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 160.41131105398458, "best": 327.27 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SPST)", "dimensions": { "width": 5, "length": 10, "height": 8, "weight": 1 } } }
+  },
+  "HSL-SPT300": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SPT300)", "dimensions": { "width": 11, "length": 11, "height": 11, "weight": 1 } } }
+  },
+  "HSL-SPT300-2XSAT30": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 47.8134110787172, "best": 66.67 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "HSL-SPT300-ALT": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": -185.4961832061069, "best": 252.63 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SPT300)", "dimensions": { "width": 11, "length": 11, "height": 11, "weight": 1 } } }
+  },
+  "HSL-SPTC": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 28.571428571428573, "best": 55.56 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-2X40240": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 58.146964856230035, "best": 133.33 },
+    "shipping": { "default": { "name": "ISL MFR Carton (40240)", "dimensions": { "width": 9, "length": 24, "height": 2, "weight": 1 } } }
+  },
+  "ISL-2X40241": {
+    "optimized_ship_quantity": 21,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 35.57046979865772, "best": 63.64 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-3PC-BLK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-3PC-BLU-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 38.46153846153846, "best": 42.55 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-3PC-BRN-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 46.15384615384615, "best": 62.5 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-3PC-PCK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 53.475935828877, "best": 86.96 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-3PC-RBW-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 60.66734074823052, "best": 88.89 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-3PC-RED-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (3PC)", "dimensions": { "width": 16, "length": 22, "height": 8, "weight": 1 } } }
+  },
+  "ISL-40240": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 20,
+    "bundling": { "average": 75.34246575342466, "best": 139.53 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-40280": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-40716": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "ISL-41036-41137-39-41276-80-41403-BAG": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41037-38-39-40-41162-63-64-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41037-41038-41039-41040-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41037-41039-41140-41141-41404-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41137-41280-41139-41403-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41137-41280-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 38.84572697003329, "best": 89.29 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41140-41141-41142-41404-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41143-41290-41145-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41180-41181-41182-41183-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41180-81-82-83-84-86-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41180-81-82-83-84-90-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41180-81-82-83-87-88-89-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41184-41185-41186-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "14x3x3 White Box (CCL)", "dimensions": { "width": 3, "length": 14, "height": 3, "weight": 1 } } }
+  },
+  "ISL-41271-41272-41273-41274": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41271-41272-41273-41274-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-41277-41176-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-41277-41278-41279": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-41277-41278-41279-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-77-78-79-41137-39-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-77-78-79-41137-76-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41276-77-78-79-41165-66-67-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41286-41287-41288-41289": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41286-87-88-89-41143-41291-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41304-05-06-07-08-09-10-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41304-05-06-07-38-11-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41304-41305-41306-41307": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41304-41305-41306-41307-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41304-41306-41406-41377-41338-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41386-41387-41388-41389": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41386-41387-41388-41389-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41386-41388-41390-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41386-87-88-89-41473-74-75-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41386-87-88-89-91-92-BAG": {
+    "optimized_ship_quantity": 25,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-4PC-12IN-AMR": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 59.72222222222222, "best": 100 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-AMR-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 50, "best": 62.5 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BLK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BLK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BLU": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 69.23076923076924, "best": 133.33 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BLU-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 65.45961002785515, "best": 76.92 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BRN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 138.88888888888889, "best": 173.91 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-BRN-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 68.46473029045643, "best": 123.08 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-PCK": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 85.93272171253821, "best": 162.16 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-PCK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 66.7420814479638, "best": 117.65 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-RBW": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 124.99999999999999, "best": 200 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-RBW-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 65.38895152198421, "best": 120 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-RED": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC-12IN-RED-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC-12IN)", "dimensions": { "width": 16, "length": 22, "height": 10, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-BLK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-BLU-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 45.01607717041801, "best": 80 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-BRN-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 57.14285714285714, "best": 66.67 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-PCK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 45.45454545454545, "best": 72.73 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-RBW-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 66.53846153846155, "best": 109.09 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-2PCSPR-RED-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-2PCSPR)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-BLK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-BLU-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 58.18181818181818, "best": 74.07 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-BRN-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 46.263345195729535, "best": 74.07 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-PCK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 40.26845637583893, "best": 47.62 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-RBW-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 64.32637571157495, "best": 119.4 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-4PC12IN-3PC8IN-RED-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (4PC12IN-3PC8IN)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-BLK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-BLU-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 38.46153846153846, "best": 57.14 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-BRN-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 47.61904761904761, "best": 66.67 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-PCK-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 57.14285714285715, "best": 90.91 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-RBW-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 63.97774687065369, "best": 93.02 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-6PC-RED-BAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "CCL MFR Carton (6PC)", "dimensions": { "width": 16, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "ISL-9PC-RBW-BAG": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 67.5, "best": 71.43 },
+    "shipping": { "default": { "name": "CCL MFR Carton (9PC)", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "JNY-2X301C-MAGENTA": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-2XJNY422A-BLU": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 72.48322147651007, "best": 75.59 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-2XJNY422A-NVY": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-2XJNY422A-PPY": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 56.33802816901409, "best": 60.67 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-2XJNY422B": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 50.420168067226896, "best": 80 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-301C-MAGENTA-301C-NAVY": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-301C-MAGENTA-301C-TEAL": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "JNY-301C-NAVY-301C-TEAL": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 386.66666666666663, "best": 566.04 },
+    "shipping": { "default": { "name": "JNY MFR Carton (Default)", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "KRT-250-2XGHB": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-250-2XTPB": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 32.53588516746411, "best": 37.65 },
+    "shipping": { "default": { "name": "10x6x5 Box", "dimensions": { "width": 6, "length": 10, "height": 5, "weight": 1 } } }
+  },
+  "KRT-250-4XGHB": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 23.52941176470588, "best": 28.57 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "KRT-250-4XTPB": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 24.113475177304963, "best": 35.71 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "KRT-2XCHAINKIT-13IN": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 39.69230769230769, "best": 56.25 },
+    "shipping": { "default": { "name": "KRT MFR Carton (CHAINKIT-13IN)", "dimensions": { "width": 10, "length": 14, "height": 4, "weight": 1 } } }
+  },
+  "KRT-375G8IN-2XGHB-CHNKIT": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 12.972972972972974, "best": 19.05 },
+    "shipping": { "default": { "name": "18x12x6 Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375G8IN-2XTPB-CHNKIT": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 12.01201201201201, "best": 17.2 },
+    "shipping": { "default": { "name": "18x12x6 Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T12IN-GOP": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 26.611226611226613, "best": 46.15 },
+    "shipping": { "default": { "name": "12x8x6 Box", "dimensions": { "width": 8, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T12IN-STTS01-CBD20XT15IN": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-375T18IN-GOP": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 19.16058394160584, "best": 28.57 },
+    "shipping": { "default": { "name": "20IN Custom Wrap", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-375T18IN-STTS01": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T20IN-GOP": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-375T20IN-STTS01": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-375T24IN-GOP": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 5.58659217877095, "best": 9.71 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T24IN-STTS01-CBD20XT30IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 26,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "KRT-AR500-375-DC-4K": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-CLB-KIT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-DMD-KIT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-HRT-KIT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-RND-KIT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-SPD-KIT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-DC-ST": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 28,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G10IN": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G12IN": {
+    "optimized_ship_quantity": 3,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 21.088435374149658, "best": 50 },
+    "shipping": { "default": { "name": "12x12x4 Box", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G4-6-8-10-12IN-T20IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G4IN": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 27.77777777777778, "best": 27.78 },
+    "shipping": { "default": { "name": "10x10x6 Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G4IN-G6IN-G8IN-G10IN-G12IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G4IN-G8IN-G12IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 10.94890510948905, "best": 15 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "Thu Sep 16 2021 21:00:00 GMT-0700 (Pacific Daylight Time)": {
+    "optimized_ship_quantity": 11,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "6x6x6 Box", "dimensions": { "width": 6, "length": 6, "height": 6, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G8IN": {
+    "optimized_ship_quantity": 8,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 36.25377643504532, "best": 80 },
+    "shipping": { "default": { "name": "10x10x6 Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "KRT-AR500-375-T12IN": {
+    "optimized_ship_quantity": 7,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 43.488649940262846, "best": 70 },
+    "shipping": { "default": { "name": "16x12x6 Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "KRT-AR500-375-T18IN": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": 84,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-AR500-375-T20IN": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": 68,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-AR500-375-T24IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 52,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "KRT-CBD-100XT15IN": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "KRT-CBD-20XKQD": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x18x16 Box", "dimensions": { "width": 18, "length": 30, "height": 16, "weight": 2 } } }
+  },
+  "KRT-CBD-20XLEG": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x18x16 Box", "dimensions": { "width": 18, "length": 30, "height": 16, "weight": 2 } } }
+  },
+  "KRT-CBD-20XT15IN": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 54.51729478575116, "best": 103.13 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "KRT-CBD-20XT30IN": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": 72,
+    "bundling": { "average": 24.31118314424635, "best": 50.7 },
+    "shipping": { "default": { "name": "30x18x16 Box", "dimensions": { "width": 18, "length": 30, "height": 16, "weight": 2 } } }
+  },
+  "KRT-CBD-60XT15IN": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 20.025673940949932, "best": 36.36 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "KRT-CBD-60XT30IN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 22,
+    "bundling": { "average": 13.00869565217391, "best": 23.33 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "KRT-CBD20XT30IN-STTS01-P": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 20, "length": 30, "height": 4, "weight": 2 } } }
+  },
+  "KRT-CHAINKIT-13IN": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 215.3846153846154, "best": 300 },
+    "shipping": { "default": { "name": "KRT MFR Carton (CHAINKIT-13IN)", "dimensions": { "width": 10, "length": 14, "height": 4, "weight": 1 } } }
+  },
+  "KRT-DTR": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-SQ50": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 106.4876957494407, "best": 208.7 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "KRT-STTS01": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 112,
+    "bundling": { "average": 25.974025974025974, "best": 30.77 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "KRT-STTS01-S": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-TPB-2XGOP": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 38.99082568807339, "best": 80 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "KRT-TPB-4XGOP": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 21.589205397301352, "best": 31.25 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "KRT-TXS": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LPI-PINKPOUCH-L": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "LPI-PINKPOUCH-M": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LPI-PINKPOUCH-S": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 32.78688524590164, "best": 45.45 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "LPI-PINKPOUCH-XL": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "LSB-10XAHSSB05": {
+    "optimized_ship_quantity": 15,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-10XEBOS05": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 16.216216216216218, "best": 21.28 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "LSB-2XEBOS05": {
+    "optimized_ship_quantity": 100,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 60.14150943396226, "best": 95.24 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-4XEBOS05": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 43.333333333333336, "best": 58.82 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-5XAHSSB05": {
+    "optimized_ship_quantity": 28,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-ACBE100": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 192.6315789473684, "best": 294.12 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "LSB-ACCJ02": {
+    "optimized_ship_quantity": 48,
+    "optimized_pallet_quantity": 48,
+    "bundling": { "average": 80, "best": 80 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LSB-ACCJ02-BCGJ02": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": 16,
+    "bundling": { "average": 31.016042780748666, "best": 38.1 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-ACCJ02-BCGJ02-ALT": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": 16,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-BCGJ01": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": 32,
+    "bundling": { "average": 964.5390070921985, "best": 1969.23 },
+    "shipping": { "default": { "name": "LSB MFR Carton (Default)", "dimensions": { "width": 13, "length": 13, "height": 13, "weight": 1 } } }
+  },
+  "LSB-BCGJ01-ALT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": 32,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "LSB MFR Carton (Default)", "dimensions": { "width": 13, "length": 13, "height": 13, "weight": 1 } } }
+  },
+  "LSB-BCGJ02": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": 648,
+    "bundling": { "average": 827.5206087507926, "best": 1851.43 },
+    "shipping": { "default": { "name": "LSB MFR Carton (Default)", "dimensions": { "width": 13, "length": 13, "height": 13, "weight": 1 } } }
+  },
+  "LSB-BCGJ02-ALT": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": 648,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "LSB MFR Carton (Default)", "dimensions": { "width": 13, "length": 13, "height": 13, "weight": 1 } } }
+  },
+  "LSB-CHME100-ALT": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": 50,
+    "bundling": { "average": 117.68707482993196, "best": 166.67 },
+    "shipping": { "default": { "name": "18x12x6 Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "LSB-EBOS05": {
+    "optimized_ship_quantity": 100,
+    "optimized_pallet_quantity": 100,
+    "bundling": { "average": 797.1506105834463, "best": 1818.18 },
+    "shipping": { "default": { "name": "16x12x6 Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "LSB-EBOS05-120G": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LSB-EBOS05-60G": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LSB-EBOS120": {
+    "optimized_ship_quantity": 150,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 199.25484351713862, "best": 681.82 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-ELBE100": {
+    "optimized_ship_quantity": 50,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 254.65116279069764, "best": 333.33 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "LSB-LMAP100": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 182.75862068965515, "best": 191.67 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "LSB-SPGP100": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "MAD-47578": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 116.78832116788321, "best": 229.79 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "MAD-47578-BAG": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 59.781867757327895, "best": 100 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "MAD-K47551-GRN": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 186.34812286689422, "best": 420 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K47551-PAS-BLU": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 311.88811188811184, "best": 420 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K47551-PAS-PNK": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 247.24409448818898, "best": 525 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K47551-PAS-PUR": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 125.37313432835822, "best": 203.23 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K47551-PUR": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 174.09326424870466, "best": 350 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K47551-RED": {
+    "optimized_ship_quantity": 42,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 147.3684210526316, "best": 147.37 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K47551)", "dimensions": { "width": 15, "length": 14, "height": 11, "weight": 1 } } }
+  },
+  "MAD-K48585-BLU": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 98.46153846153845, "best": 118.52 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-BLU-ALT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 176.62337662337663, "best": 275.86 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-BLU-BAG": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 43.68600682593857, "best": 64 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-NAT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 220.68965517241378, "best": 400 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-NAT-ALT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 290.9090909090909, "best": 320 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-NAT-BAG": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 41.8848167539267, "best": 50.39 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-RED": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 130.6122448979592, "best": 177.78 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-RED-ALT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 151.57894736842107, "best": 237.04 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-RED-BAG": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 39.91683991683992, "best": 68.09 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-TGR": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-TGR-ALT": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-K48585-TGR-BAG": {
+    "optimized_ship_quantity": 32,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MAD MFR Carton (K48585)", "dimensions": { "width": 13, "length": 24, "height": 16, "weight": 1 } } }
+  },
+  "MAD-LSQ4B-BLK": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MAD MFR Carton (LSQ4)", "dimensions": { "width": 13, "length": 20, "height": 18, "weight": 1 } } }
+  },
+  "MAD-LSQ4R-RED": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 115.38461538461539, "best": 141.18 },
+    "shipping": { "default": { "name": "MAD MFR Carton (LSQ4)", "dimensions": { "width": 13, "length": 20, "height": 18, "weight": 1 } } }
+  },
+  "MAD-MH9402MH": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-10XSOCCER-ENG-2XPUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-10XSOCCER-SPA-2XPUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-2XSOCCER-ENG-PUMP": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "MBL-2XSOCCER-SPA-PUMP": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "MBL-5XSOCCER-ENG-PUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-5XSOCCER-SPA-PUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-SOCCER-ENG-PUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MBL-SOCCER-SPA-PUMP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "MON-MHV11018US": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "NTC-2XNT20E-NAVY": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 167.01030927835052, "best": 288 },
+    "shipping": { "default": { "name": "NTC MFR Carton (56\")", "dimensions": { "width": 10, "length": 22, "height": 14, "weight": 1 } } }
+  },
+  "NTC-2XNT2202BG": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 57.167832167832174, "best": 90 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Auto Open/Close)", "dimensions": { "width": 12, "length": 14, "height": 7, "weight": 1 } } }
+  },
+  "NTC-2XNT326B": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": 648,
+    "bundling": { "average": 614.9466192170819, "best": 635.29 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-2XNT326E-SPR22-AQU": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 192.0502092050209, "best": 333.33 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-2XNT326E-SPR22-BLK": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-2XNT326E-SPR22-NVY": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-2XNT3303F1-GREEN": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-2XNT9-BLK": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NTC MFR Carton (NT9)", "dimensions": { "width": 11, "length": 13, "height": 17, "weight": 1 } } }
+  },
+  "NTC-2XNT9-BLK-ALT": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NTC MFR Carton (NT9)", "dimensions": { "width": 11, "length": 13, "height": 17, "weight": 1 } } }
+  },
+  "NTC-2XNTBC22E-CHR-BLU": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NTC-2XNTBC22E-CHR-GRN": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NTC-2XNTBC22E-CHR-RBW": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 8,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NTC-NT326B": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 41.85136897001304, "best": 68.57 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "NTC-NT9-BLK": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NTC MFR Carton (NT9)", "dimensions": { "width": 11, "length": 13, "height": 17, "weight": 1 } } }
+  },
+  "NTC-NTBU22E-UMB-BLU": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 60.252808988764045, "best": 86.96 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "NTC-NTBU22E-UMB-GRN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 60.55833929849677, "best": 121.21 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "NTC-NTBU22E-UMB-RBW": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 120,
+    "bundling": { "average": 58.05805805805806, "best": 100 },
+    "shipping": { "default": { "name": "NTC MFR Carton (Beach Umbrella)", "dimensions": { "width": 5, "length": 48, "height": 4, "weight": 1 } } }
+  },
+  "NTC-NTS20-GLF-MED-BLK": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "48x12x12 Box", "dimensions": { "width": 12, "length": 48, "height": 12, "weight": 0 } } }
+  },
+  "NTC-NTS20-GLF-MED-NVY": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "48x12x12 Box", "dimensions": { "width": 12, "length": 48, "height": 12, "weight": 0 } } }
+  },
+  "NTC-NTS20-GLF-MED-RED": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 69.23076923076923, "best": 79.55 },
+    "shipping": { "default": { "name": "48x12x12 Box", "dimensions": { "width": 12, "length": 48, "height": 12, "weight": 0 } } }
+  },
+  "NUV-10XLCFR12": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 54.71698113207547, "best": 103.9 },
+    "shipping": { "default": { "name": "15x15x10 Box", "dimensions": { "width": 15, "length": 15, "height": 10, "weight": 1 } } }
+  },
+  "NUV-10XUNIBAG-LG": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-10XUNIBAG-MD": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-10XUNIBAG-SM": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-20XLCFR12-3XMULTI-STETH-SYRINGE": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 15.222482435597191, "best": 17.86 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "NUV-ACBE100": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-CGA540-BL": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 91.69741697416974, "best": 266.67 },
+    "shipping": { "default": { "name": "NUV MFR Carton (CGA540)", "dimensions": { "width": 13, "length": 16, "height": 15, "weight": 1 } } }
+  },
+  "NUV-CGA540-OZONESTETH": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 37.735849056603776, "best": 46.51 },
+    "shipping": { "default": { "name": "NUV MFR Carton (STETH)", "dimensions": { "width": 12, "length": 27, "height": 16, "weight": 1 } } }
+  },
+  "NUV-CGA870": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 136.48068669527896, "best": 200 },
+    "shipping": { "default": { "name": "NUV MFR Carton (CGA870)", "dimensions": { "width": 13, "length": 16, "height": 15, "weight": 1 } } }
+  },
+  "NUV-CHME100": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-EBOS05": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-ELBE100": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-LMAP100": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-OZONE-15XMULTICHAMBERBAG": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 23.333333333333332, "best": 37.74 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "NUV-OZONE-3XMULTICHAMBERBAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 48.85057471264368, "best": 108.11 },
+    "shipping": { "default": { "name": "10x10x6 Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "NUV-OZONE-7XMULTICHAMBERBAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 22.3463687150838, "best": 46.51 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "NUV-OZONE-MULTICHAMBERBAG": {
+    "optimized_ship_quantity": 20,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 40.59040590405904, "best": 55.56 },
+    "shipping": { "default": { "name": "10x6x5 Box", "dimensions": { "width": 6, "length": 10, "height": 5, "weight": 1 } } }
+  },
+  "NUV-OZONE-STETH": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 82.19178082191782, "best": 125 },
+    "shipping": { "default": { "name": "NUV MFR Carton (STETH)", "dimensions": { "width": 12, "length": 27, "height": 16, "weight": 1 } } }
+  },
+  "NUV-OZONE-SYRINGE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 79.38144329896907, "best": 130.43 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "NUV-SPGP100": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 163.0990415335463, "best": 444.44 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "OTT-W2RBR": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 56,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "PIO-BDRXD05B-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07B": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "PIO MFR Carton (Default)", "dimensions": { "width": 10, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "PIO-BDRXD07B-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 46.875, "best": 64.52 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07B-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 48, "best": 48 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07S-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07S-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07UHD-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD07UHD-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXS06-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXS07S": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "PIO MFR Carton (Default)", "dimensions": { "width": 10, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "PIO-BDRXS07S-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXS07UHD-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXS07UHD-UVG-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "RAD-85900": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x20x8 Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "RAD-85900-K47551-RED": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "RAD-85901": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x20x8 Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "RAD-85901-K47551-RED": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "RAD-85902": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x20x8 Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "RAD-85902-K47551-RED": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "RAD-85909": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "30x20x8 Box", "dimensions": { "width": 20, "length": 30, "height": 8, "weight": 2 } } }
+  },
+  "RAD-85909-K47551-RED": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 5.555555555555555, "best": 5.56 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "VTL-EBOS05": {
+    "optimized_ship_quantity": 150,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-2X9003-9032-MITTGREEN": {
+    "optimized_ship_quantity": 15,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 21.38888888888889, "best": 30 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-2X9032-MITTGREEN": {
+    "optimized_ship_quantity": 9,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 30.318650421743204, "best": 65.85 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-2X9128-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 72,
+    "bundling": { "average": 17.50700280112045, "best": 28.57 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "VTX-4X9128": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 36,
+    "bundling": { "average": 29.72972972972973, "best": 43.24 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-4X9128-ALT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 36,
+    "bundling": { "average": 28.8832913518052, "best": 45.71 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-4X9128-ALT-2": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 36,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-4X9128-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 36,
+    "bundling": { "average": 25.329202168861343, "best": 53.42 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-9003-9032-9128-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 99,
+    "bundling": { "average": 20.695652173913047, "best": 36.36 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "VTX-9032": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 50.36319612590799, "best": 76.19 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-9032-9128": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 99,
+    "bundling": { "average": 10.480349344978166, "best": 20 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "VTX-9032-9128-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 99,
+    "bundling": { "average": 22.439024390243905, "best": 40 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "VTX-9032-ALT": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 53.770491803278695, "best": 100 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-9032-MITTGREEN": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 48.25396825396826, "best": 80 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VTX-9128": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 144,
+    "bundling": { "average": 82.39124001183782, "best": 148.45 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-9128-ALT": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": 144,
+    "bundling": { "average": 84.02832415420929, "best": 160 },
+    "shipping": { "default": { "name": "VTX MFR Carton (9128)", "dimensions": { "width": 9, "length": 18, "height": 13, "weight": 1 } } }
+  },
+  "VTX-9128-MITTGREEN": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 99,
+    "bundling": { "average": 31.759656652360515, "best": 74.42 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "VTX-9500": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 27,
+    "bundling": { "average": 19.180201082753285, "best": 46.15 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 13, "length": 13, "height": 15, "weight": 2 } } }
+  },
+  "VTX-9500-MITT": {
+    "optimized_ship_quantity": 1,
+    "optimized_pallet_quantity": 27,
+    "bundling": { "average": 20.364741641337382, "best": 22.86 },
+    "shipping": { "default": { "name": "Bundle Box", "dimensions": { "width": 13, "length": 13, "height": 15, "weight": 2 } } }
+  },
+  "VUL-BCGJ02": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": 648,
+    "bundling": { "average": 222.2784810126582, "best": 800 },
+    "shipping": { "default": { "name": "LSB MFR Carton (Default)", "dimensions": { "width": 13, "length": 13, "height": 13, "weight": 1 } } }
+  },
+  "VUL-EBOS05": {
+    "optimized_ship_quantity": 100,
+    "optimized_pallet_quantity": 100,
+    "bundling": { "average": 373.8562091503267, "best": 800 },
+    "shipping": { "default": { "name": "18x12x6 Box", "dimensions": { "width": 12, "length": 18, "height": 6, "weight": 1 } } }
+  },
+  "VUP-ACSPDSDK1VP": {
+    "optimized_ship_quantity": 18,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "VUP-PDSDKST470AVP": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470AVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470BUVP": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470BUVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "VUP-PDSDKST470LPVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470PUVP": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470PUVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470RGVP-8GB-CLOTH-USBADP30": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470RGVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 26.666666666666668, "best": 26.67 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470RVP": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470RVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 53.333333333333336, "best": 53.33 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470TVP": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470TVP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSDKST470VP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 21.42857142857143, "best": 21.43 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "VUP-PDSST415VP": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "VUP-PDSST415VP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 36, "best": 36 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "VUP-PDSST470VP-RB-CRCARD-8GB-CLOTH": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "MFR Carton", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 0 } } }
+  },
+  "EML-E0414P7": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 180.5309734513274, "best": 384 },
+    "shipping": { "default": { "name": "EML MFR Carton (E0414P7)", "dimensions": { "width": 10, "length": 11, "height": 8, "weight": 1 } } }
+  },
+  "NTC-NT2202BG": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 58.95953757225433, "best": 88.89 },
+    "shipping": { "default": { "name": "NTC MFR Carton (42\")", "dimensions": { "width": 13, "length": 14, "height": 9, "weight": 1 } } }
+  },
+  "CLP-2X60038": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": 12,
+    "bundling": { "average": 44.44444444444445, "best": 48.98 },
+    "shipping": { "default": { "name": "CLP MFR Carton (0.5- & 1.5-Cup)", "dimensions": { "width": 10, "length": 10, "height": 10, "weight": 1 } } }
+  },
+  "CLP-PREBUNDLE-8PC": {
+    "optimized_ship_quantity": 4,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 24.6124031007752, "best": 32.88 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "ISL-41280": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 41.404358353510894, "best": 83.33 },
+    "shipping": { "default": { "name": "ISL MFR Carton (SINGLE)", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "CLP-PREBUNDLE-4PC": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 18.961625282167045, "best": 24.49 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "CLP-PREBUNDLE-6PC": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 13.281682346430548, "best": 19.51 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "ISL-41377": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 44.81981981981981, "best": 61.7 },
+    "shipping": { "default": { "name": "ISL MFR Carton (SINGLE)", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "ISL-41386": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 36.82170542635659, "best": 100 },
+    "shipping": { "default": { "name": "ISL MFR Carton (SINGLE)", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "KRT-AR500-375-G6IN": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 55.76923076923077, "best": 64.71 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "ALR-30012-70002-MITT": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 79.9279927992799, "best": 96 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "PIO-BDRXD08G-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 54.054054054054056, "best": 54.05 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD08UMBS-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 54.794520547945204, "best": 54.79 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD08B-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 45.45454545454545, "best": 52.63 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "PIO-BDRXD08S-CASE": {
+    "optimized_ship_quantity": 30,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 25.64102564102564, "best": 25.64 },
+    "shipping": { "default": { "name": "20x20x20 Box (XL)", "dimensions": { "width": 20, "length": 20, "height": 20, "weight": 3 } } }
+  },
+  "SHN-78890-30000": {
+    "optimized_ship_quantity": 6,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "SHN MFR Carton", "dimensions": { "width": 7, "length": 24, "height": 11, "weight": 1 } } }
+  },
+  "EML-E9PCBBB-KNIVES": {
+    "optimized_ship_quantity": 10,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 80, "best": 93.02 },
+    "shipping": { "default": { "name": "16x12x6 Box", "dimensions": { "width": 12, "length": 16, "height": 6, "weight": 1 } } }
+  },
+  "ISL-41137": {
+    "optimized_ship_quantity": 40,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": 52.5, "best": 54.76 },
+    "shipping": { "default": { "name": "ISL MFR Carton (SINGLE)", "dimensions": { "width": 12, "length": 12, "height": 4, "weight": 1 } } }
+  },
+  "KRT-TPB-4XGOP-RED": {
+    "optimized_ship_quantity": 8,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 46.42126789366053, "best": 56.8 },
+    "shipping": { "default": { "name": "10x10x6 Box", "dimensions": { "width": 10, "length": 10, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T18IN-GOP-RED": {
+    "optimized_ship_quantity": 2,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 19.76620616365569, "best": 25 },
+    "shipping": { "default": { "name": "20IN Custom Wrap", "dimensions": { "width": 14, "length": 20, "height": 2, "weight": 1 } } }
+  },
+  "KRT-TPB-2XGOP-RED": {
+    "optimized_ship_quantity": 16,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 56.31578947368421, "best": 77.42 },
+    "shipping": { "default": { "name": "14x10x6 Box", "dimensions": { "width": 10, "length": 14, "height": 6, "weight": 1 } } }
+  },
+  "KRT-375T12IN-GOP-RED": {
+    "optimized_ship_quantity": 5,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 27.647365675534687, "best": 48.78 },
+    "shipping": { "default": { "name": "12x8x6 Box", "dimensions": { "width": 8, "length": 12, "height": 6, "weight": 1 } } }
+  },
+  "ALR-40012-70002-MITT": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": 30.835117773019274, "best": 57.14 },
+    "shipping": { "default": { "name": "18x18x16 Box (MD)", "dimensions": { "width": 18, "length": 18, "height": 16, "weight": 2 } } }
+  },
+  "EML-E3033GB": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "EML-2XE0053GB-STG9339": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NUV-OZONE-6XMULTICHAMBERBAG": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NPA-CS001": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": 1008,
+    "bundling": { "average": 283.15686448972326, "best": 637.97 },
+    "shipping": { "default": { "name": "NPA MFR Carton", "dimensions": { "width": 14, "length": 14, "height": 8, "weight": 1 } } }
+  },
+  "NPA-EP001": {
+    "optimized_ship_quantity": 24,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "NPA MFR Carton", "dimensions": { "width": 14, "length": 14, "height": 8, "weight": 1 } } }
+  },
+  "NPA-EP002": {
+    "optimized_ship_quantity": 150,
+    "optimized_pallet_quantity": null,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "15x15x10 Box", "dimensions": { "width": 15, "length": 15, "height": 10, "weight": 1 } } }
+  },
+  "NTC-2XNT3303F1-NAVY": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "NTC-2XNT20E-WINDSURFBLUE": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "30012.STICKERLESS": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": null, "best": null },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "HSL-2XSPT300-ST": {
+    "optimized_ship_quantity": 48,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "HSL-SPSMT": {
+    "optimized_ship_quantity": 36,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "HSL-SPTMT": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  },
+  "HSL-SPTT": {
+    "optimized_ship_quantity": 12,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "HSL MFR Carton (SPST)", "dimensions": { "width": 5, "length": 10, "height": 8, "weight": 1 } } }
+  },
+  "": {
+    "optimized_ship_quantity": 0,
+    "optimized_pallet_quantity": 0,
+    "bundling": { "average": "", "best": 0 },
+    "shipping": { "default": { "name": "Custom", "dimensions": { "width": 0, "length": 0, "height": 0, "weight": 1 } } }
+  }
+}
