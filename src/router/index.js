@@ -3,9 +3,6 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 const routes = [
   {
     component: () => import('@/views/HomeView.vue'),
-    meta: {
-      hasDarkMode: false,
-    },
     name: 'Home',
     path: '/',
   },
