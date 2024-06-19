@@ -1,0 +1,138 @@
+{
+  "CA": {
+    "endpoint": "sellingpartnerapi-na.amazon.com",
+    "region": "us-east-1",
+    "country": "Canada",
+    "code": "CA",
+    "id": "A2EUQ1WTGCTBG2",
+    "url": "amazon.ca"
+  },
+  "US": {
+    "endpoint": "sellingpartnerapi-na.amazon.com",
+    "region": "us-east-1",
+    "country": "United States of America",
+    "code": "US",
+    "id": "ATVPDKIKX0DER",
+    "url": "amazon.com"
+  },
+  "MX": {
+    "endpoint": "sellingpartnerapi-na.amazon.com",
+    "region": "us-east-1",
+    "country": "Mexico",
+    "code": "MX",
+    "id": "A1AM78C64UM0Y8",
+    "url": "amazon.com.mx"
+  },
+  "BR": {
+    "endpoint": "sellingpartnerapi-na.amazon.com",
+    "region": "us-east-1",
+    "country": "Brazil",
+    "code": "BR",
+    "id": "A2Q3Y263D00KWC",
+    "url": "amazon.com.br"
+  },
+  "ES": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Spain",
+    "code": "ES",
+    "id": "A1RKKUPIHCS9HS",
+    "url": "amazon.es"
+  },
+  "GB": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "United Kingdom",
+    "code": "GB",
+    "id": "A1F83G8C2ARO7P",
+    "url": "amazon.co.uk"
+  },
+  "FR": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "France",
+    "code": "FR",
+    "id": "A13V1IB3VIYZZH",
+    "url": "amazon.fr"
+  },
+  "NL": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Netherlands",
+    "code": "NL",
+    "id": "A1805IZSGTT6HS",
+    "url": "amazon.nl"
+  },
+  "DE": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Germany",
+    "code": "DE",
+    "id": "A1PA6795UKMFR9",
+    "url": "amazon.de"
+  },
+  "IT": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Italy",
+    "code": "IT",
+    "id": "APJ6JRA9NG5V4",
+    "url": "amazon.it"
+  },
+  "SE": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Sweden",
+    "code": "SE",
+    "id": "A2NODRKZP88ZB9",
+    "url": "amazon.se"
+  },
+  "TR": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "Turkey",
+    "code": "TR",
+    "id": "A33AVAJ2PDY3EV",
+    "url": "amazon.com.tr"
+  },
+  "AE": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "United Arab Emirates",
+    "code": "AE",
+    "id": "A2VIGQ35RCS4UG",
+    "url": "amazon.ae"
+  },
+  "IN": {
+    "endpoint": "sellingpartnerapi-eu.amazon.com",
+    "region": "eu-west-1",
+    "country": "India",
+    "code": "IN",
+    "id": "A21TJRUUN4KGV",
+    "url": "amazon.in"
+  },
+  "SG": {
+    "endpoint": "sellingpartnerapi-fe.amazon.com",
+    "region": "us-west-2",
+    "country": "Singapore",
+    "code": "SG",
+    "id": "A19VAU5U5O7RUS",
+    "url": "amazon.sg"
+  },
+  "AU": {
+    "endpoint": "sellingpartnerapi-fe.amazon.com",
+    "region": "us-west-2",
+    "country": "Australia",
+    "code": "AU",
+    "id": "A39IBJ37TRP1C6",
+    "url": "amazon.au"
+  },
+  "JP": {
+    "endpoint": "sellingpartnerapi-fe.amazon.com",
+    "region": "us-west-2",
+    "country": "Japan",
+    "code": "JP",
+    "id": "A1VC38T7YXB528",
+    "url": "amazon.jp"
+  }
+}
