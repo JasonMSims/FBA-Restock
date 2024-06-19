@@ -1,0 +1,8 @@
+{
+  "user_preferences": {
+    "targetDays": 58,
+    "runRate": { "duration": "30d", "type": "asin" },
+    "marketplaceCode": "US",
+    "tablePagination": { "perPage": "50" }
+  }
+}
