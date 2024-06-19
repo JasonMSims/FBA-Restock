@@ -10,23 +10,23 @@
             </b-button>
           </b-field>
           <b-field>
-            <b-dropdown :disabled="replenishmentProducts.length === 0" :mobile-modal="false" aria-role="menu">
+            <b-dropdown :disabled="replenishmentProductKeys.length === 0" :mobile-modal="false" aria-role="menu">
               <template #trigger="{ active }">
                 <b-button :icon-right="active ? 'menu-up' : 'menu-down'" type="is-success">Export</b-button>
               </template>
               <b-dropdown-item aria-role="menuitem" custom><b>FBA Shipments</b></b-dropdown-item>
               <b-dropdown-item @click="createFba" aria-role="menuitem"><b-icon class="mr-1" icon="download"></b-icon>Bulk FBA Plan</b-dropdown-item>
-              <b-dropdown-item class="flex" @click="createIndividualFbas" aria-role="menuitem"
+              <b-dropdown-item @click="createIndividualFbas" aria-role="menuitem" class="flex"
                 ><b-icon class="mr-1" icon="download"></b-icon>Individual FBA Plans</b-dropdown-item
               >
-              <hr class="dropdown-divider" aria-role="menuitem" />
+              <hr aria-role="menuitem" class="dropdown-divider" />
               <b-dropdown-item aria-role="menuitem" custom><b>Send to Amazon</b></b-dropdown-item>
               <b-dropdown-item @click="createStaWorkflow" aria-role="menuitem">
                 <b-tag rounded type="is-success">New!</b-tag>
                 <b-icon class="mr-1" icon="download"></b-icon>
                 Send to Amazon Workflow
               </b-dropdown-item>
-              <hr class="dropdown-divider" aria-role="menuitem" />
+              <hr aria-role="menuitem" class="dropdown-divider" />
               <b-dropdown-item aria-role="menuitem" custom><b>Purchase Orders</b></b-dropdown-item>
               <b-dropdown-item @click="handleCompileDraftClick" aria-role="menuitem"
                 ><b-icon class="mr-1" icon="export"></b-icon>Draft POs</b-dropdown-item
@@ -34,24 +34,19 @@
             </b-dropdown>
           </b-field>
           <b-field>
-            <b-dropdown :disabled="replenishmentProducts.length === 0" :mobile-modal="false" aria-role="menu">
+            <b-dropdown :disabled="replenishmentProductKeys.length === 0" :mobile-modal="false" aria-role="menu">
               <template #trigger="{ active }">
                 <b-button :icon-right="active ? 'menu-up' : 'menu-down'" type="is-info">Actions</b-button>
               </template>
               <b-dropdown-item aria-role="menuitem" custom><b style="white-space: nowrap">Update SKU Status</b></b-dropdown-item>
-              <template v-for="classification in classifications" :key="classification.name">
-                <b-dropdown-item v-if="classification.conditional" aria-role="menuitem">
+              <template :key="classification.name" v-for="classification in classifications">
+                <b-dropdown-item aria-role="menuitem" v-if="classification.conditional">
                   <b-checkbox
-                    class="is-flex-wrap-nowrap"
                     :indeterminate="classification.indeterminate"
-                    :value="classification.value"
-                    @click="
-                      toggleSkuClassification(
-                        classification.name,
-                        replenishmentProducts.map((product) => product.sku)
-                      )
-                    "
+                    @click="toggleSkuClassification(classification.name, replenishmentProductKeys)"
+                    class="is-flex-wrap-nowrap"
                     type="is-info"
+                    v-model="classification.value"
                     >{{ classification.label }}</b-checkbox
                   >
                 </b-dropdown-item>
@@ -66,31 +61,17 @@
         <div class="level-item has-text-centered">
           <div>
             <div class="heading">Total Units</div>
-            <div class="title">{{ useFormatter.number(replenishmentProducts.reduce((a, c) => a + c.replenishmentQuantity, 0)) }}</div>
+            <div class="title">
+              {{ totalUnits }}
+            </div>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <div class="heading">Total Time</div>
             <div class="title">
-              {{
-                humanizeDuration(
-                  replenishmentProducts.reduce(
-                    (a, c) =>
-                      skuProcedures[c.sku].bundling.average > 0
-                        ? a + (c.replenishmentQuantity / skuProcedures[c.sku].bundling.average) * 3600 * 1000
-                        : a,
-                    0
-                  ),
-                  { round: true, units: ['h', 'm'] }
-                )
-              }}
-              <span
-                class="ml-2"
-                v-if="
-                  replenishmentProducts.some((product) => !skuProcedures[product.sku].bundling || skuProcedures[product.sku].bundling.average === '')
-                "
-              >
+              {{ totalTime }}
+              <span class="ml-2" v-if="missingBundlingData">
                 <b-tooltip label="Some selected SKUs do not have bundling averages." type="is-danger is-light">
                   <b-icon icon="exclamation-circle" pack="fas" size="is-small" type="is-danger" />
                 </b-tooltip>
@@ -104,7 +85,6 @@
       <b-field class="is-field-right">
         <div class="control">
           <b-input
-            v-model="skuInput"
             :loading="skuInputLoading"
             @icon-right-click="clearSkuInput"
             icon="magnify"
@@ -112,6 +92,7 @@
             icon-right-clickable
             pack="material-icons"
             placeholder="Search for a SKU..."
+            v-model="skuInput"
           ></b-input>
           <!-- <pre>
           skuInput: {{ skuInput }}
@@ -161,26 +142,48 @@ const { replenishmentProducts } = storeToRefs(replenishmentStore)
 const { skuProcedures } = storeToRefs(shippingStore)
 
 const classifications = computed(() => {
-  const skuStates = replenishmentProducts.value.map((product) => product.sku)
-
+  const skuStates = Array.from(replenishmentProducts.value.keys())
   return [
-    { ref: favorite, name: 'favorite', label: 'Important', conditional: true },
-    { ref: dropship, name: 'dropship', label: 'Dropshipped', conditional: true },
-    { ref: oversize, name: 'oversize', label: 'Oversized', conditional: true },
-    { ref: fbm, name: 'fbm', label: 'FBM', conditional: true },
-    { ref: canada, name: 'canada', label: 'Canada FBA', conditional: marketplaceCode === 'CA' },
-    { ref: blacklist, name: 'blacklist', label: 'Blacklisted', conditional: true },
+    { conditional: true, label: 'Important', name: 'favorite', ref: favorite.value },
+    { conditional: true, label: 'Dropshipped', name: 'dropship', ref: dropship.value },
+    { conditional: true, label: 'Oversized', name: 'oversize', ref: oversize.value },
+    { conditional: true, label: 'FBM', name: 'fbm', ref: fbm.value },
+    { conditional: marketplaceCode === 'CA', label: 'Canada FBA', name: 'canada', ref: canada.value },
+    { conditional: true, label: 'Blacklisted', name: 'blacklist', ref: blacklist.value },
   ].map((classification) => {
-    const allIncluded = skuStates.every((sku) => classification.ref.value.includes(sku))
-    const someIncluded = skuStates.some((sku) => classification.ref.value.includes(sku))
+    const allIncluded = skuStates.every((sku) => classification.ref.includes(sku))
+    const someIncluded = skuStates.some((sku) => classification.ref.includes(sku))
     const indeterminate = someIncluded && !allIncluded
 
     return {
       ...classification,
+      indeterminate,
       value: allIncluded,
-      indeterminate: indeterminate,
     }
   })
+})
+
+const replenishmentProductKeys = computed(() => Array.from(replenishmentProducts.value.keys()))
+const replenishmentProductValues = computed(() => Array.from(replenishmentProducts.value.values()))
+const totalUnits = computed(() => {
+  return useFormatter.number(replenishmentProductValues.value.reduce((a, c) => a + c.replenishmentQuantity, 0))
+})
+const totalTime = computed(() => {
+  return humanizeDuration(
+    replenishmentProductKeys.value.reduce(
+      (a, c) =>
+        skuProcedures.value[c]?.bundling.average > 0
+          ? a + (replenishmentProducts.value.get(c).replenishmentQuantity / skuProcedures.value[c]?.bundling.average) * 3600 * 1000
+          : a,
+      0
+    ),
+    { round: true, units: ['h', 'm'] }
+  )
+})
+const missingBundlingData = computed(() => {
+  return replenishmentProductKeys.value.some(
+    (product) => !skuProcedures.value[product]?.bundling || skuProcedures.value[product]?.bundling.average === ''
+  )
 })
 
 const { compileDraftPurchaseOrders } = purchaseOrderStore

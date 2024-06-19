@@ -1,60 +1,60 @@
 <template>
   <b-field grouped>
     <!-- Box Dropdown -->
-    <b-field label="Box" expanded>
+    <b-field expanded label="Box">
       <b-dropdown
-        v-model="currentShipping.name"
-        @change="updateShippingInfo"
-        aria-role="menu"
+        :max-height="200"
         :mobile-modal="false"
         :scrollable="true"
-        :max-height="200"
+        @change="updateShippingInfo"
+        aria-role="menu"
+        v-model="currentShipping.name"
       >
         <template #trigger="{ active }">
-          <b-button type="is-white" :icon-right="active ? 'menu-up' : 'menu-down'">{{ currentShipping.name }}</b-button>
+          <b-button :icon-right="active ? 'menu-up' : 'menu-down'" type="is-white">{{ currentShipping.name }}</b-button>
         </template>
         <b-dropdown-item value="Custom">Custom</b-dropdown-item>
-        <b-dropdown-item v-if="defaultShipping.name !== 'Custom'" :value="defaultShipping.name">{{ defaultShipping.name }}</b-dropdown-item>
+        <b-dropdown-item :value="defaultShipping.name" v-if="defaultShipping.name !== 'Custom'">{{ defaultShipping.name }}</b-dropdown-item>
       </b-dropdown>
     </b-field>
 
     <!-- Dimension Inputs -->
     <b-field label="Width (in)">
       <b-numberinput
-        v-model="currentShipping.dimensions.width"
-        @input="updateShippingInfo"
         :controls="false"
         :disabled="currentShipping.name !== 'Custom'"
+        @input="updateShippingInfo"
+        v-model="currentShipping.dimensions.width"
       ></b-numberinput>
     </b-field>
     <b-field label="Length (in)">
       <b-numberinput
-        v-model="currentShipping.dimensions.length"
-        @input="updateShippingInfo"
         :controls="false"
         :disabled="currentShipping.name !== 'Custom'"
+        @input="updateShippingInfo"
+        v-model="currentShipping.dimensions.length"
       ></b-numberinput>
     </b-field>
     <b-field label="Height (in)">
       <b-numberinput
-        v-model="currentShipping.dimensions.height"
-        @input="updateShippingInfo"
         :controls="false"
         :disabled="currentShipping.name !== 'Custom'"
+        @input="updateShippingInfo"
+        v-model="currentShipping.dimensions.height"
       ></b-numberinput>
     </b-field>
 
     <!-- Weight Display -->
     <b-field label="Weight (lb)">
-      <b-numberinput :value="calculatedWeight" :controls="false" disabled></b-numberinput>
+      <b-numberinput :controls="false" :value="calculatedWeight" disabled></b-numberinput>
     </b-field>
   </b-field>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
 import { useReplenishmentStore, useShippingStore } from '@/stores'
-import { debounce, cloneDeep } from 'lodash'
+import { cloneDeep, debounce } from 'lodash'
+import { computed, ref } from 'vue'
 
 const replenishmentStore = useReplenishmentStore()
 const shippingStore = useShippingStore()
@@ -79,8 +79,8 @@ const updateShippingInfo = () => {
   }
 
   const updatedShipping = {
-    default: defaultShipping.value,
     current: currentShipping.value,
+    default: defaultShipping.value,
   }
   updateShippingCurrent(props.product.sku, updatedShipping)
 }

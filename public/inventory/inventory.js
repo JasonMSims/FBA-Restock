@@ -112,7 +112,7 @@ function process_orders(data, orders, timeframe) {
 // }
 
 function get_fba_inventory() {
-  console.log(`Starting get_fba_inventory`)
+  console.log('Starting get_fba_inventory')
 
   try {
     let fba = SpreadsheetApp.openById('1TeMF6RFq1xRTM8Y8vhovCI5YvPqeOSnaHYgLW4sTLvU')
@@ -121,38 +121,38 @@ function get_fba_inventory() {
       .getValues()
       .slice(1)
       .filter((sku) => sku[4] !== 'Unknown')
-    console.time(`get fba_ orders`)
+    console.time('get fba_ orders')
     let orders = get_fba_orders()
-    console.timeEnd(`get fba orders`)
-    console.time(`get dimensions`)
+    console.timeEnd('get fba orders')
+    console.time('get dimensions')
     let dimensions = get_dimensions()
-    console.timeEnd(`get dimensions`)
+    console.timeEnd('get dimensions')
     const data = fba.reduce((o, sku) => {
       let units_sold = {
-        sku: !orders[sku[0]] ? { '7d': 0, '30d': 0 } : orders[sku[0]].units_sold,
         asin: !orders[sku[2]] ? { '7d': 0, '30d': 0 } : orders[sku[2]].units_sold,
+        sku: !orders[sku[0]] ? { '7d': 0, '30d': 0 } : orders[sku[0]].units_sold,
       }
       o[sku[0]] = {
         ...{
-          fnsku: sku[1],
           asin: sku[2],
-          price: sku[5],
-          units_sold: units_sold,
+          fnsku: sku[1],
           inventory: {
             fulfillable: sku[10],
-            reserved: sku[12],
-            inbound: { working: sku[15], shipped: sku[16], receiving: sku[17] },
+            inbound: { receiving: sku[17], shipped: sku[16], working: sku[15] },
             researching: sku[18],
-            unsellable: sku[11],
+            reserved: sku[12],
             total: sku[13],
+            unsellable: sku[11],
           },
+          price: sku[5],
+          units_sold: units_sold,
         },
         ...dimensions[sku[2]],
       }
       return o
     }, {})
 
-    DriveApp.createFile('fba_inventory.json', JSON.stringify(data))
+    // DriveApp.createFile('fba_inventory.json', JSON.stringify(data))
 
     return data
   } catch (error) {
@@ -165,7 +165,7 @@ function get_amazon_catalog_items(asins, instance) {
   try {
     let response = with_retry(
       SPAPI.catalog.searchCatalogItems.bind(SPAPI.catalog), // API function
-      [{ identifiersType: 'ASIN', identifiers: asins, marketplaceIds: marketplace.id, includedData: ['dimensions'], pageSize: 20 }], // Arguments
+      [{ identifiers: asins, identifiersType: 'ASIN', includedData: ['dimensions'], marketplaceIds: marketplace.id, pageSize: 20 }], // Arguments
       5, // Max attempts
       500 // Initial delay in milliseconds
     )
@@ -314,7 +314,7 @@ function format_procedure_quantity(value, max_quantity = 150) {
 // }
 
 function get_sku_procedure() {
-  console.log(`Starting get_sku_procedure`)
+  console.log('Starting get_sku_procedure')
   try {
     let sku_procedure_sheet = SpreadsheetApp.openById('1M6-4Ij4oYsGk0O1HfQ-Kx8azffJ36eDGmSwMO3Nsn6s')
     let procedures = sku_procedure_sheet.getSheetByName('SKU Procedure').getDataRange().getValues()
@@ -335,37 +335,37 @@ function get_sku_procedure() {
 
     const data = procedures.reduce((a, c) => {
       a[c[headers.procedures.indexOf('SKU')]] = {
-        optimized_ship_quantity: format_procedure_quantity(c[headers.procedures.indexOf('OPTIMIZED PER BOX QTY')]),
-        optimized_pallet_quantity: format_procedure_quantity(c[headers.procedures.indexOf('OPTIMIZED SHIP QTY')], 10000),
         bundling: { ...(sku_avg[c[headers.procedures.indexOf('SKU')]] || { average: null, best: null }) },
+        optimized_pallet_quantity: format_procedure_quantity(c[headers.procedures.indexOf('OPTIMIZED SHIP QTY')], 10000),
+        optimized_ship_quantity: format_procedure_quantity(c[headers.procedures.indexOf('OPTIMIZED PER BOX QTY')]),
         shipping: {
           default:
             c[headers.procedures.indexOf('OPTIMIZED SHIP DIMENSIONS (max 25")')] !== ''
               ? {
-                  name: c[headers.procedures.indexOf('OPTIMIZED SHIP DIMENSIONS (max 25")')],
                   dimensions: {
-                    width: Number.isNaN(parseFloat(c[headers.procedures.indexOf('WIDTH')])) ? 0 : parseFloat(c[headers.procedures.indexOf('WIDTH')]),
-                    length: Number.isNaN(parseFloat(c[headers.procedures.indexOf('LENGTH')]))
-                      ? 0
-                      : parseFloat(c[headers.procedures.indexOf('LENGTH')]),
                     height: Number.isNaN(parseFloat(c[headers.procedures.indexOf('HEIGHT')]))
                       ? 0
                       : parseFloat(c[headers.procedures.indexOf('HEIGHT')]),
+                    length: Number.isNaN(parseFloat(c[headers.procedures.indexOf('LENGTH')]))
+                      ? 0
+                      : parseFloat(c[headers.procedures.indexOf('LENGTH')]),
                     weight: Number.isNaN(parseFloat(c[headers.procedures.indexOf('WEIGHT')]))
                       ? 0
                       : parseFloat(c[headers.procedures.indexOf('WEIGHT')]),
+                    width: Number.isNaN(parseFloat(c[headers.procedures.indexOf('WIDTH')])) ? 0 : parseFloat(c[headers.procedures.indexOf('WIDTH')]),
                   },
+                  name: c[headers.procedures.indexOf('OPTIMIZED SHIP DIMENSIONS (max 25")')],
                 }
               : {
+                  dimensions: { height: 0, length: 0, weight: 1, width: 0 },
                   name: 'Custom',
-                  dimensions: { width: 0, length: 0, height: 0, weight: 1 },
                 },
         },
       }
       return a
     }, {})
 
-    DriveApp.createFile('sku_procedure.json', JSON.stringify(data))
+    // DriveApp.createFile('sku_procedure.json', JSON.stringify(data))
 
     return data
   } catch (error) {
@@ -375,7 +375,7 @@ function get_sku_procedure() {
 }
 
 function get_kits() {
-  console.log(`Starting get_kits`)
+  console.log('Starting get_kits')
   return new Promise((resolve, reject) => {
     try {
       const response = SkuVault.API.Products.getKits()
@@ -395,8 +395,8 @@ function format_kits(kits, products, map) {
       obj[kit.SKU] = Object.assign({
         components: kit.KitLines.map((component) =>
           Object.assign({
-            required: component.Quantity,
             products: component.Items.map((product) => product.SKU),
+            required: component.Quantity,
           })
         ),
       })
@@ -410,7 +410,7 @@ function format_kits(kits, products, map) {
 
     products.forEach((product) => {
       if (!Object.keys(kits).includes(product.Sku) && product.IsAlternateSKU) {
-        kits[product.Sku] = { components: [{ required: 1, products: [map[product.Sku]] }] }
+        kits[product.Sku] = { components: [{ products: [map[product.Sku]], required: 1 }] }
       }
     })
     return kits
@@ -421,7 +421,7 @@ function format_kits(kits, products, map) {
 }
 
 function get_products() {
-  console.log(`Starting get_products`)
+  console.log('Starting get_products')
   return new Promise((resolve, reject) => {
     try {
       const response = SkuVault.API.Products.getProducts()
@@ -492,16 +492,16 @@ function format_products(products) {
   try {
     return products.map((product) => {
       return {
-        sku: product.Sku,
-        title: product.Description,
         brand: product.Brand,
-        supplier: product.Supplier,
         cost: product.Cost,
+        sku: product.Sku,
+        supplier: product.Supplier,
+        title: product.Description,
         warehouse: {
           inventory: {
-            onhand: product.IsAlternateSKU ? 0 : product.QuantityOnHand,
             available: product.IsAlternateSKU ? 0 : product.QuantityAvailable,
             incoming: product.IsAlternateSKU ? 0 : product.QuantityIncoming,
+            onhand: product.IsAlternateSKU ? 0 : product.QuantityOnHand,
           },
         },
       }
@@ -539,9 +539,9 @@ function get_components(kits, products) {
             (obj[product] = {
               allocated: 0,
               available: products[product].warehouse.inventory.available,
+              cost: products[product].cost,
               incoming: products[product].warehouse.inventory.incoming,
               supplier: products[product].supplier,
-              cost: products[product].cost,
             })
         )
       })
@@ -553,9 +553,9 @@ function get_components(kits, products) {
         components[product] = {
           allocated: 0,
           available: products[product].warehouse.inventory.available,
+          cost: products[product].cost,
           incoming: products[product].warehouse.inventory.incoming,
           supplier: products[product].supplier,
-          cost: products[product].cost,
         }
     })
 
@@ -605,11 +605,11 @@ async function get_products_and_kits() {
     let map = build_map(products) // Build an 'Alternate SKU' map of the 'Products'
     let formatted_kits = format_kits(kits, products, map) // Format the 'Kits' array into an object
     let formatted_products = format_products(products) // Format the 'Products' array into an object
-    console.timeEnd(`Data Transformation`)
+    console.timeEnd('Data Transformation')
 
     const compiledData = {
-      products: formatted_products,
       kits: formatted_kits,
+      products: formatted_products,
     }
 
     DriveApp.createFile('products_and_kits.json', JSON.stringify(compiledData))

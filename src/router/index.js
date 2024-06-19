@@ -3,13 +3,19 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 const routes = [
   {
     component: () => import('@/views/HomeView.vue'),
-    name: 'Old',
-    path: '/old',
+    meta: {
+      hasDarkMode: false,
+    },
+    name: '1.0',
+    path: '/',
   },
   {
     component: () => import('@/views/NewView.vue'),
-    name: 'Home',
-    path: '/',
+    meta: {
+      hasDarkMode: true,
+    },
+    name: '2.0',
+    path: '/2.0',
   },
 ]
 

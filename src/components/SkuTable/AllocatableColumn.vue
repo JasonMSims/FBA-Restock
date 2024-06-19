@@ -45,11 +45,9 @@
           <tbody>
             <tr>
               <td class="has-text-right">
-                <span :class="product.warehouse.inventory.allocatable < 1 ? ['tag', 'is-rounded', 'is-danger'] : []">{{
-                  useFormatter.number(product.warehouse.inventory.allocatable)
-                }}</span>
+                <span :class="allocatableClass">{{ formattedAllocatable }}</span>
               </td>
-              <td>{{ useFormatter.number(product.warehouse.inventory.incoming) }}</td>
+              <td>{{ formattedIncoming }}</td>
             </tr>
           </tbody>
         </table>
@@ -77,12 +75,16 @@ const { getAllocatableQuantity } = replenishmentStore
 
 const isKit = computed(() => kits.value[props.product.sku] !== undefined)
 const kitComponents = computed(() => (isKit.value ? kits.value[props.product.sku].components : []))
+
 const allocatableClass = computed(() => {
-  return props.product.warehouse.inventory.allocatable < 1 ? ['tag', 'is-rounded', 'is-danger', 'is-medium'] : []
+  return parseInt(formattedAllocatable.value) < 1 ? ['tag', 'is-rounded', 'is-danger', 'is-medium'] : []
 })
+
 const formattedAllocatable = computed(() => {
-  // return useFormatter.number(props.product.warehouse.inventory.allocatable)
   return useFormatter.number(getAllocatableQuantity(props.product.sku))
+})
+const formattedIncoming = computed(() => {
+  return useFormatter.number(props.product.warehouse.inventory.incoming)
 })
 
 const getComponentQuantities = (componentProducts) => {

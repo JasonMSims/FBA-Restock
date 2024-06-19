@@ -5,6 +5,7 @@
     :loading="tableLoading"
     :per-page="tablePagination.perPage"
     @check="onRowChecked"
+    @check-all="onAllRowsChecked"
     checkable
     checkbox-position="left"
     class=""
@@ -118,24 +119,38 @@ const { getReplenishmentQuantity, setReplenishmentProduct } = replenishmentStore
 const { inventoryColumns } = storeToRefs(settingsStore)
 const { runRate, tableLoading, tablePagination } = storeToRefs(uiStore)
 
-const onRowChecked = (checkedRows, row) => {
-  const isRowChecked = checkedRows.some((checkedRow) => checkedRow.sku === row.sku)
+const onRowChecked = (checkedList, row) => {
+  if (!row) return
+  const isRowChecked = checkedList.some((checkedRow) => checkedRow.sku === row.sku)
   if (isRowChecked) {
     // If the row is now checked, add or update the product in replenishmentProducts
     const defaultQuantity = 1 // Define a default quantity if not already set
-    setReplenishmentProduct(row.sku, Math.max(getReplenishmentQuantity(row.sku), defaultQuantity))
+    setReplenishmentProduct({ productSku: row.sku, replenishmentQuantity: Math.max(getReplenishmentQuantity(row.sku), defaultQuantity) })
   } else {
     // If the row is now unchecked, remove the product from replenishmentProducts
-    setReplenishmentProduct(row.sku, 0) // Setting quantity to 0 will remove it
+    setReplenishmentProduct({ productSku: row.sku, replenishmentQuantity: 0 }) // Setting quantity to 0 will remove it
+  }
+}
+
+const onAllRowsChecked = (checkedList) => {
+  const rowsToCheck = checkedList.filter((row) => !checkedRows.value.includes(row))
+  if (rowsToCheck.length > 0) {
+    rowsToCheck.forEach((row) => {
+      onRowChecked(checkedList, row)
+    })
+  } else {
+    checkedRows.value.forEach((row) => {
+      onRowChecked(checkedList, row)
+    })
   }
 }
 
 const checkedRows = computed(() => {
-  return skuTableData.value.filter((row) => replenishmentProducts.value.some((repProduct) => repProduct.sku === row.sku))
+  return skuTableData.value.filter((row) => Array.from(replenishmentProducts.value.keys()).includes(row.sku))
 })
 
 const isSkuSelected = (sku) => {
-  return replenishmentProducts.value.find((repProduct) => repProduct.sku === sku) ? true : false
+  return Array.from(replenishmentProducts.value.keys()).includes(sku)
 }
 
 onMounted(async () => {
@@ -157,6 +172,8 @@ onMounted(async () => {
   }
 
   .table {
+    margin-top: 0;
+
     thead {
       position: relative;
       z-index: 5;

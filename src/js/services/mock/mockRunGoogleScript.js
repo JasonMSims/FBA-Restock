@@ -1,49 +1,52 @@
 import compileData from './data/compileData.json'
-import userProperties from './data/userProperties.json'
-import scriptProperties from './data/scriptProperties.json'
-import marketplaces from './data/marketplaces.json'
-import skuvaultWarehouses from './data/skuvaultWarehouses.json'
-import productsAndKits from './data/productsAndKits.json'
-import skuProcedures from './data/skuProcedures.json'
 import fbaInventory from './data/fbaInventory.json'
+import marketplaces from './data/marketplaces.json'
+import productsAndKits from './data/productsAndKits.json'
+import scriptProperties from './data/scriptProperties.json'
+import skuProcedures from './data/skuProcedures.json'
+import skuvaultWarehouses from './data/skuvaultWarehouses.json'
+import userProperties from './data/userProperties.json'
 
 const mockFunctions = {
-  create_sta_workflow: (params) => {
-    return { success: true, message: '[MOCK] STA Workflow created successfully' }
-  },
-  create_fba: (params) => {
-    return { success: true, message: '[MOCK] FBA created successfully' }
-  },
-  create_individual_fbas: (params) => {
-    return { success: true, message: '[MOCK] Individual FBAs created successfully' }
+  compile_data: () => {
+    return compileData
   },
   compile_draft_purchase_orders: (params) => {
     // Return a success message or similar response
     // return { success: true, message: '[MOCK] Draft Purchase Orders compiled successfully' }
     const response = [
       {
-        LineItems: [{ SKU: 'ALR-10012', Quantity: 1 }],
+        LineItems: [{ Quantity: 1, SKU: 'ALR-10012' }],
+        PoNumber: 'DRAFT_a96a3f96-9356-4118-9824-e85730001917',
         ShipToWarehouse: 'P7HQ',
         SupplierName: 'Allerpet Inc',
-        PoNumber: 'DRAFT_a96a3f96-9356-4118-9824-e85730001917',
       },
     ]
     return response
+  },
+  create_fba: (params) => {
+    return { message: '[MOCK] FBA created successfully', success: true }
+  },
+  create_individual_fbas: (params) => {
+    return { message: '[MOCK] Individual FBAs created successfully', success: true }
   },
   create_purchase_order: (params) => {
     // Return a success message or similar response
     // return { success: true, message: '[MOCK] Purchase order created successfully' }
     const response = {
-      notification: {
-        type: 'is-success',
-        message: 'PO# DRAFT_d55db5fb-1c0c-40a1-bf22-59687f262bd3 has been created',
-      },
-      LineItems: [{ SKU: 'ALR-MITT-BLUE', Quantity: 77 }],
+      LineItems: [{ Quantity: 77, SKU: 'ALR-MITT-BLUE' }],
+      PoNumber: 'DRAFT_d55db5fb-1c0c-40a1-bf22-59687f262bd3',
       ShipToWarehouse: 'P7HQ',
       SupplierName: 'Hebei Laibang Import and Export Trade Co Ltd',
-      PoNumber: 'DRAFT_d55db5fb-1c0c-40a1-bf22-59687f262bd3',
+      notification: {
+        message: 'PO# DRAFT_d55db5fb-1c0c-40a1-bf22-59687f262bd3 has been created',
+        type: 'is-success',
+      },
     }
     return response
+  },
+  create_sta_workflow: (params) => {
+    return { message: '[MOCK] STA Workflow created successfully', success: true }
   },
   export_purchase_order: (params) => {
     // Return a success message or similar response
@@ -58,9 +61,14 @@ const mockFunctions = {
     }
     return response
   },
-  get_script_property: (propertyName) => {
-    let property = scriptProperties[propertyName]
-    return property
+  get_fba_inventory: () => {
+    return fbaInventory
+  },
+  get_marketplaces: () => {
+    return marketplaces
+  },
+  get_products_and_kits: () => {
+    return productsAndKits
   },
   get_script_properties: (params) => {
     // Return specific properties based on params
@@ -69,36 +77,28 @@ const mockFunctions = {
       return acc
     }, {})
   },
-  get_user_property: (property) => {
-    property = userProperties[property]
+  get_script_property: (propertyName) => {
+    let property = scriptProperties[propertyName]
     return property
-  },
-  get_marketplaces: () => {
-    return marketplaces
-  },
-  get_skuvault_warehouses: () => {
-    return skuvaultWarehouses
-  },
-  compile_data: () => {
-    return compileData
-  },
-  get_products_and_kits: () => {
-    return productsAndKits
-  },
-  get_fba_inventory: () => {
-    return fbaInventory
   },
   get_sku_procedure: () => {
     return skuProcedures
   },
+  get_skuvault_warehouses: () => {
+    return skuvaultWarehouses
+  },
+  get_user_property: (property) => {
+    property = userProperties[property]
+    return property
+  },
   set_script_property: (params) => {
-    return { success: true, message: '[MOCK] Script property set successfully' }
+    return { message: '[MOCK] Script property set successfully', success: true }
   },
   set_user_property: (params) => {
-    return { success: true, message: '[MOCK] User property set successfully' }
+    return { message: '[MOCK] User property set successfully', success: true }
   },
 }
 
-export const mockRunGoogleScript = ({ serverFunctionName, params = [] }) => {
+export const mockRunGoogleScript = ({ params = [], serverFunctionName }) => {
   return mockFunctions[serverFunctionName](...params)
 }

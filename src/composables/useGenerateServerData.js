@@ -9,9 +9,9 @@ export const useGenerateServerData = () => {
   const { skuProcedures } = storeToRefs(useShippingStore())
 
   const fbaData = computed(() => {
-    return replenishmentProducts.value.map((replenishmentProduct) => {
-      const amazonData = amazonInventory.value[replenishmentProduct.sku]
-      const shippingData = skuProcedures.value[replenishmentProduct.sku]
+    return Array.from(replenishmentProducts.value.entries()).map(([sku, replenishmentProduct]) => {
+      const amazonData = amazonInventory.value[sku]
+      const shippingData = skuProcedures.value[sku]
 
       return {
         amazon: {
@@ -22,21 +22,21 @@ export const useGenerateServerData = () => {
           quantity_per_case: replenishmentProduct.quantityPerCase,
         },
         shipping: {
-          current: shippingData.shipping.current,
+          current: shippingData?.shipping?.current,
         },
-        sku: replenishmentProduct.sku,
+        sku: sku,
       }
     })
   })
 
   const poData = computed(() => {
-    return Object.entries(replenishmentComponents).map(([componentSku, component]) => {
+    return Array.from(replenishmentComponents.value.entries()).map(([componentSku, component]) => {
       const productData = products.value.find((product) => product.sku === componentSku)
 
       return {
         allocated: component.allocated,
         sku: componentSku,
-        supplier: productData.supplier,
+        supplier: productData?.supplier,
       }
     })
   })

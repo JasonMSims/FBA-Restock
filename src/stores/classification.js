@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
-import { ref, reactive, watch, nextTick } from 'vue'
+import { reactive, ref, watch } from 'vue'
+
 import { classificationService } from '../js/services'
 
 export const useClassificationStore = defineStore('classification', () => {
@@ -48,7 +49,7 @@ export const useClassificationStore = defineStore('classification', () => {
         }
       })
     } catch (error) {
-      console.error(`Failed to fetch classifications:`, error)
+      console.error('Failed to fetch classifications:', error)
     } finally {
       // await nextTick()
       classificationsLoading.value = false
@@ -74,8 +75,8 @@ export const useClassificationStore = defineStore('classification', () => {
 
   return {
     classifications,
-    fetchClassifications,
     classificationsLoading,
+    fetchClassifications,
     toggleSkuClassification,
   }
 })

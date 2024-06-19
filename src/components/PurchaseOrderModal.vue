@@ -7,6 +7,7 @@
           :data="draftPurchaseOrders"
           :loading="isDraftLoading"
           @check="onRowChecked"
+          @check-all="onAllRowsChecked"
           checkable
           height="40vh"
           hoverable
@@ -14,24 +15,24 @@
           sticky-checkbox
           sticky-header
         >
-          <b-table-column v-slot="props" field="PoNumber" label="PO #">
+          <b-table-column field="PoNumber" label="PO #" v-slot="props">
             <b-input
-              v-model="props.row.PoNumber"
               @icon-right-click="() => (props.row.PoNumber = '')"
-              custom-class="w-fit"
+              custom-class="w-fit min-w-52"
               expanded
               icon-right="close-circle"
               icon-right-clickable
               placeholder="SkuVault will auto-generate if left blank"
               type="text"
+              v-model="props.row.PoNumber"
             >
             </b-input>
-            <b-loading v-model="props.row.loading" :is-full-page="false"></b-loading>
-            <b-notification v-if="props.row.notification" :type="props.row.notification.type">
+            <b-loading :is-full-page="false" v-model="props.row.loading"></b-loading>
+            <b-notification :type="props.row.notification.type" v-if="props.row.notification">
               {{ props.row.notification.message }}
             </b-notification>
           </b-table-column>
-          <b-table-column v-slot="props" colspan="2" field="SupplierName" label="Supplier">
+          <b-table-column colspan="2" field="SupplierName" label="Supplier" v-slot="props">
             <div class="content py-4" style="position: relative">
               {{ props.row.SupplierName }}
             </div>
@@ -48,7 +49,7 @@
               </div>
             </template>
             <template v-slot="props">
-              <div class="level top" v-for="item in props.row.LineItems" :key="item.SKU">
+              <div :key="item.SKU" class="level top" v-for="item in props.row.LineItems">
                 <div class="level-left pr-5">
                   <div class="level-item">{{ item.SKU }}</div>
                 </div>
@@ -58,9 +59,9 @@
               </div>
             </template>
           </b-table-column>
-          <b-table-column v-slot="props" field="ShipToWarehouse" label="Ship To Warehouse">
+          <b-table-column field="ShipToWarehouse" label="Ship To Warehouse" v-slot="props">
             <b-select v-model="props.row.ShipToWarehouse">
-              <option v-for="warehouse in warehouses" :key="warehouse.Id" :value="warehouse.Code">{{ warehouse.Code }}</option>
+              <option :key="warehouse.Id" :value="warehouse.Code" v-for="warehouse in warehouses">{{ warehouse.Code }}</option>
             </b-select>
           </b-table-column>
         </b-table>
@@ -82,20 +83,29 @@ import { computed, ref } from 'vue'
 const purchaseOrderStore = usePurchaseOrderStore()
 const warehouseStore = useWarehouseStore()
 
-const { draftPurchaseOrders, isDraftLoading, isDraftActive } = storeToRefs(purchaseOrderStore)
+const { draftPurchaseOrders, isDraftActive, isDraftLoading } = storeToRefs(purchaseOrderStore)
 const { createPurchaseOrders, exportPurchaseOrders } = purchaseOrderStore
 const { warehouses } = storeToRefs(warehouseStore)
 
 const selectedSuppliers = ref([])
 
-const onRowChecked = (checkedRows, row) => {
-  const isRowChecked = checkedRows.some((checkedRow) => checkedRow.SupplierName === row.SupplierName)
+const onRowChecked = (checkedList, row) => {
+  if (!row) return
+  const isRowChecked = checkedList.some((checkedRow) => checkedRow.SupplierName === row.SupplierName)
   if (isRowChecked) {
     if (!selectedSuppliers.value.includes(row.SupplierName)) {
       selectedSuppliers.value.push(row.SupplierName)
     }
   } else {
     selectedSuppliers.value = selectedSuppliers.value.filter((name) => name !== row.SupplierName)
+  }
+}
+
+const onAllRowsChecked = (checkedList) => {
+  if (checkedList.length > 0) {
+    selectedSuppliers.value = checkedList.map((row) => row.SupplierName)
+  } else {
+    selectedSuppliers.value = []
   }
 }
 

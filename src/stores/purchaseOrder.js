@@ -1,7 +1,7 @@
-import { defineStore } from 'pinia'
-import { ref, nextTick } from 'vue'
-import { purchaseOrderService } from '@/js/services'
 import { useFileDownload } from '@/composables'
+import { purchaseOrderService } from '@/js/services'
+import { defineStore } from 'pinia'
+import { nextTick, ref } from 'vue'
 
 export const usePurchaseOrderStore = defineStore('purchaseOrder', () => {
   const draftPurchaseOrders = ref([])
@@ -18,7 +18,7 @@ export const usePurchaseOrderStore = defineStore('purchaseOrder', () => {
       const data = await purchaseOrderService.compileDraftPos(poData)
       draftPurchaseOrders.value = data
     } catch (error) {
-      console.error(`Failed to create draft PO:`, error)
+      console.error('Failed to create draft PO:', error)
     } finally {
       await nextTick()
       isDraftLoading.value = false
@@ -41,7 +41,7 @@ export const usePurchaseOrderStore = defineStore('purchaseOrder', () => {
         ]
         downloadFile(data.bytes, data.filename, 'text/tsv;charset=utf-8')
       } catch (error) {
-        console.error(`Failed to export PO:`, error)
+        console.error('Failed to export PO:', error)
       } finally {
         await nextTick()
       }
@@ -64,7 +64,7 @@ export const usePurchaseOrderStore = defineStore('purchaseOrder', () => {
           ...draftPurchaseOrders.value.slice(orderIndex + 1),
         ]
       } catch (error) {
-        console.error(`Failed to create the purchase orders:`, error)
+        console.error('Failed to create the purchase orders:', error)
       } finally {
         await nextTick()
       }
@@ -72,11 +72,11 @@ export const usePurchaseOrderStore = defineStore('purchaseOrder', () => {
   }
 
   return {
-    draftPurchaseOrders,
-    isDraftLoading,
-    isDraftActive,
     compileDraftPurchaseOrders,
-    exportPurchaseOrders,
     createPurchaseOrders,
+    draftPurchaseOrders,
+    exportPurchaseOrders,
+    isDraftActive,
+    isDraftLoading,
   }
 })

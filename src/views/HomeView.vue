@@ -1,11 +1,11 @@
 <template>
   <app-sidebar />
-  <section class="section flex h-screen flex-col justify-start">
+  <section class="section not-prose flex h-screen flex-col justify-start">
     <actions-panel />
-    <section class="main flex flex-auto flex-col overflow-auto">
+    <section class="main flex flex-auto flex-col">
       <div class="relative h-full w-full" v-if="pageLoading">
         <!-- <b-progress size="is-small" type="is-info" :value="(filters.page.progress.loaded / filters.page.progress.total) * 100"></b-progress> -->
-        <b-loading v-model="pageLoading" :is-full-page="false"></b-loading>
+        <b-loading :is-full-page="false" v-model="pageLoading"></b-loading>
       </div>
       <template v-else>
         <sku-table />
@@ -20,9 +20,9 @@
 <script setup>
 import { ActionsPanel, AppSidebar, PurchaseOrderModal, SkuTable } from '@/components'
 import { useInventoryStore, useProductStore } from '@/stores'
-import { storeToRefs } from 'pinia'
-import { computed } from 'vue'
 import 'buefy/dist/buefy.css'
+import { storeToRefs } from 'pinia'
+import { computed, onMounted, onUnmounted } from 'vue'
 
 const inventoryStore = useInventoryStore()
 const productStore = useProductStore()
@@ -32,6 +32,16 @@ const { inventoryLoading } = storeToRefs(inventoryStore)
 
 const pageLoading = computed(() => {
   return inventoryLoading.value || productsLoading.value
+})
+
+onMounted(() => {
+  document.querySelector('html').classList.add('bg-slate-50')
+  document.querySelector('body').className = ''
+})
+
+onUnmounted(() => {
+  document.querySelector('html').classList.remove('bg-slate-50')
+  document.querySelector('body').classList.add('prose', 'prose-sm', 'prose-slate', 'max-w-none', 'bg-white', 'dark:prose-invert', 'dark:bg-slate-800')
 })
 </script>
 
