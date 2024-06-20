@@ -1,6 +1,6 @@
-import { defineStore } from 'pinia'
-import { ref, nextTick } from 'vue'
 import { inventoryService } from '@/js/services'
+import { defineStore } from 'pinia'
+import { nextTick, ref } from 'vue'
 
 export const useInventoryStore = defineStore('inventory', () => {
   const amazonInventory = ref({})
@@ -14,7 +14,7 @@ export const useInventoryStore = defineStore('inventory', () => {
         amazonInventory.value = fetchedInventory || {}
       }
     } catch (error) {
-      console.error(`Failed to fetch Amazon inventory:`, error)
+      console.error('Failed to fetch Amazon inventory:', error)
     } finally {
       await nextTick()
       inventoryLoading.value = false

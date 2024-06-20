@@ -8,7 +8,13 @@ export const useSettingsStore = defineStore('settings', () => {
     return inventoryStatuses.filter((status) => !includedInventoryStatuses.value.includes(status))
   })
 
-  const inventoryColumns = ref({ Available: 'fulfillable', Inbound: 'inbound', Transfer: 'reserved', Working: 'working' })
+  /* eslint */
+  const inventoryColumns = ref([
+    { name: 'Inbound', status: 'inbound' },
+    { name: 'Working', status: 'working' },
+    { name: 'Transfer', status: 'reserved' },
+    { name: 'Available', status: 'fulfillable' },
+  ])
 
   return {
     excludedInventoryStatuses,

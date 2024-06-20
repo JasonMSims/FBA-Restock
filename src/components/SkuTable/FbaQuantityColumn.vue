@@ -16,6 +16,7 @@ const roundToCasePack = ref(false)
 const stepValue = computed(() => (roundToCasePack.value ? currentQuantity : 1))
 
 const setReplenishmentProduct = debounce((productSku, replenishmentQuantity) => {
+  replenishmentQuantity = Number(replenishmentQuantity)
   replenishmentStore.setReplenishmentProduct({ productSku, replenishmentQuantity })
 }, 500)
 

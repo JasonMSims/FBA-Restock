@@ -37,7 +37,7 @@
     <b-table-column field="unitsSold.7d" label="Units Sold (7 Days)" numeric sortable v-slot="props">
       {{ useFormatter.number(props.row.unitsSold['7d']) }}
     </b-table-column>
-    <b-table-column :field="`amazon.inventory.${value}`" :key="value" numeric sortable v-for="(value, status) in inventoryColumns">
+    <b-table-column :field="`amazon.inventory.${status}`" :key="index" numeric sortable v-for="({ name, status }, index) in inventoryColumns">
       <template v-slot:header="{ column }">
         <inventory-column
           :icon="column.$table.sortIcon"
@@ -45,11 +45,11 @@
           :iconSize="column.$table.sortIconSize"
           :isAsc="column.$table.isAsc"
           :isCurrentSortColumn="column.$table.currentSortColumn === column"
-          :status="status"
-          :value="value"
+          :status="name"
+          :value="status"
         />
       </template>
-      <template v-slot="props"> {{ useFormatter.number(props.row.amazon.inventory[value]) }} </template>
+      <template v-slot="props"> {{ useFormatter.number(props.row.amazon.inventory[status]) }} </template>
     </b-table-column>
     <b-table-column field="amazon.inventory.sellable" label="Total Inventory" numeric sortable v-slot="props">
       {{ useFormatter.number(props.row.amazon.inventory.sellable) }}

@@ -19,20 +19,20 @@
     </b-field>
 
     <!-- Dimension Inputs -->
-    <b-field label="Width (in)">
-      <b-numberinput
-        :controls="false"
-        :disabled="currentShipping.name !== 'Custom'"
-        @input="updateShippingInfo"
-        v-model="currentShipping.dimensions.width"
-      ></b-numberinput>
-    </b-field>
     <b-field label="Length (in)">
       <b-numberinput
         :controls="false"
         :disabled="currentShipping.name !== 'Custom'"
         @input="updateShippingInfo"
         v-model="currentShipping.dimensions.length"
+      ></b-numberinput>
+    </b-field>
+    <b-field label="Width (in)">
+      <b-numberinput
+        :controls="false"
+        :disabled="currentShipping.name !== 'Custom'"
+        @input="updateShippingInfo"
+        v-model="currentShipping.dimensions.width"
       ></b-numberinput>
     </b-field>
     <b-field label="Height (in)">

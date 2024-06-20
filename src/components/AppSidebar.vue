@@ -34,7 +34,7 @@
       <b-field label="Product Size">
         <b-radio-button native-value="all" type="is-info is-light is-outlined" v-model="productSize">All</b-radio-button>
         <b-radio-button native-value="standard" type="is-success is-light is-outlined" v-model="productSize">Standard</b-radio-button>
-        <b-radio-button native-value="oversized" type="is-danger is-light is-outlined" v-model="productSize">Oversized</b-radio-button>
+        <b-radio-button native-value="oversize" type="is-danger is-light is-outlined" v-model="productSize">Oversized</b-radio-button>
       </b-field>
       <b-field expanded label="Days of Cover">
         <b-numberinput

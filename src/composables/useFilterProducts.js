@@ -22,8 +22,8 @@ export const useFilterProducts = () => {
     const replenishmentSkus = new Set([...replenishmentProducts.value.keys()])
     const sizeFilter = {
       all: () => true,
-      oversize: (product) => oversizeSkus.value.includes(product.sku),
-      standard: (product) => !oversizeSkus.value.includes(product.sku),
+      oversize: (sku) => oversizeSkus.value.includes(sku),
+      standard: (sku) => !oversizeSkus.value.includes(sku),
     }[productSize.value]
 
     return products.value.filter((product) => {
@@ -32,7 +32,7 @@ export const useFilterProducts = () => {
       const matchesFavorite = !favoriteOnly.value || favoriteSkus.value.includes(product.sku)
       const matchesDropship = !dropshipOnly.value || dropshipSkus.value.includes(product.sku)
       const matchesBlacklist = blacklistOnly.value ? blacklistSkus.value.includes(product.sku) : !blacklistSkus.value.includes(product.sku)
-      const matchesSize = sizeFilter(product)
+      const matchesSize = sizeFilter(product.sku)
       const isSelected = !selectedOnly.value || replenishmentSkus.has(product.sku)
 
       return isInAmazonInventory && matchesSearchTerm && matchesFavorite && matchesDropship && matchesBlacklist && matchesSize && isSelected
