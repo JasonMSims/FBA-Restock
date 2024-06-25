@@ -71,7 +71,7 @@ const replenishmentStore = useReplenishmentStore()
 
 const { kits, products } = storeToRefs(productStore)
 const { replenishmentComponents } = storeToRefs(replenishmentStore)
-const { getAllocatableQuantity } = replenishmentStore
+// const { getAllocatableQuantity } = replenishmentStore
 
 const isKit = computed(() => kits.value[props.product.sku] !== undefined)
 const kitComponents = computed(() => (isKit.value ? kits.value[props.product.sku].components : []))
@@ -81,7 +81,8 @@ const allocatableClass = computed(() => {
 })
 
 const formattedAllocatable = computed(() => {
-  return useFormatter.number(getAllocatableQuantity(props.product.sku))
+  // return useFormatter.number(getAllocatableQuantity(props.product.sku))
+  return useFormatter.number(props.product.warehouse.inventory.allocatable)
 })
 const formattedIncoming = computed(() => {
   return useFormatter.number(props.product.warehouse.inventory.incoming)

@@ -6,7 +6,7 @@ import { useFilterProducts, useIntegrateAmazonData, useIntegrateShippingData } f
 
 export const useSkuTable = () => {
   const { productsLoading } = storeToRefs(useReplenishmentStore())
-  // const { getAllocatableQuantity } = useReplenishmentStore()
+  const { getAllocatableQuantity } = useReplenishmentStore()
   const { alerts: activeAlerts } = storeToRefs(useUIStore())
 
   const filteredProducts = useFilterProducts()
@@ -19,17 +19,17 @@ export const useSkuTable = () => {
     })
     data = useIntegrateShippingData(data)
 
-    return data
-    // return data.map((product) => ({
-    //   ...product,
-    //   warehouse: {
-    //     ...product.warehouse,
-    //     inventory: {
-    //       ...product.warehouse.inventory,
-    //       allocatable: getAllocatableQuantity(product.sku),
-    //     },
-    //   },
-    // }))
+    // return data
+    return data.map((product) => ({
+      ...product,
+      warehouse: {
+        ...product.warehouse,
+        inventory: {
+          ...product.warehouse.inventory,
+          allocatable: getAllocatableQuantity(product.sku),
+        },
+      },
+    }))
   })
 
   const skuTableDataLoading = computed(() => {
